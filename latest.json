@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "notes": "EggRun v0.1.0",
+  "pub_date": "2026-05-26T22:20:21Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTV5NWVTMExKNHp0NTFvZndjZE05MjFUK2hSNFlFRVdGNloxOGJEekEwV3pFV3hDR3ZjZUYrcHdvRGIzb25uSFVqaXJNcWg4N3VpQW1jNkZkZHVrMmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODM0MDIwCWZpbGU6RWdnUnVuLmFwcC50YXIuZ3oKS0tJN2hhM2N2Uk5LTlNzTGlaVkdiN2RwcHg2YStBMEtmaW9xUTcxbTJ0dFRCTVBnZ1hZZS91anVXTHFRbnlPYUhXcCszVElQa25NNVFjRlZIQWpnQlE9PQo=",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.1.0/EggRun.app.tar.gz"
+    }
+  }
+}
