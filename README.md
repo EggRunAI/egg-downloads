@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="logo.png" alt="EggRun" width="128" />
+  <img src="logo.png" alt="Egg" width="128" />
 </p>
 
-<h1 align="center">EggRun Desktop</h1>
+<h1 align="center">Egg Desktop</h1>
 
 <p align="center">
-  Run Linux VMs on your Mac in seconds.
+  Run Linux VMs on your Mac in seconds. Built on <a href="https://eggrun.ai">Yolk.hypervisor</a>.
 </p>
 
 ---
@@ -16,18 +16,16 @@
 
 | File | Description |
 |------|-------------|
-| `EggRun.app.tar.gz` | App bundle (auto-updater) |
-| `EggRun.dmg` | Disk image installer |
+| `Egg.dmg` | Disk image installer |
+| `Egg.app.tar.gz` | App bundle (auto-updater) |
 
 > Requires macOS 14.0 or later.
 
 ## Install
 
-1. Download `EggRun.dmg`
-2. Open the disk image and drag **EggRun** to Applications
-3. Launch EggRun from Applications
-
-The app checks for updates automatically on startup.
+1. Download `Egg.dmg`
+2. Open the disk image and drag **Egg** to Applications
+3. Launch Egg from Applications
 
 ## Links
 
