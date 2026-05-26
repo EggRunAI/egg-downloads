@@ -5,7 +5,7 @@
 <h1 align="center">EggRun Desktop</h1>
 
 <p align="center">
-  Hardware-isolated VMs for developers. Containers share a kernel. Eggs don't.
+  Run Linux VMs on your Mac in seconds.
 </p>
 
 ---
