@@ -23,7 +23,15 @@
 
 ## Install
 
-1. Download `Egg.dmg`
+### One-liner
+
+```bash
+curl -L "https://github.com/EggRunAI/egg-downloads/raw/main/Egg%20Run.dmg" -o ~/Downloads/Egg\ Run.dmg && open ~/Downloads/Egg\ Run.dmg
+```
+
+### Manual
+
+1. Download [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/raw/main/Egg%20Run.dmg)
 2. Open the disk image and drag **Egg Run** to Applications
 3. Launch Egg Run from Applications
 
