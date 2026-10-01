@@ -13,16 +13,23 @@
   <i>Isolated inside-out just like an egg 🥚 for the finest safeguards.</i>
 </p>
 
+<p align="center">
+  <img src="app-demo.png" alt="The Egg desk: Ubuntu, Ubuntu Server and Alpine starters, and a running Ubuntu 26.04 egg with GPU" width="900" />
+</p>
+
 ---
 
 ## What is Egg Run?
 
 Egg Run is the macOS desktop app for **EggRun** — a faster, safer way to run Linux
 workloads on Apple Silicon. Each VM (an *"egg"*) is a real **hardware-isolated**
-machine. 
+machine. Double-click a computer on the desk — it installs like an app, then runs.
 
 It's built on the Camouflage Network's **Yolk** hypervisor — and Apple **Hypervisor.framework**, entirely in userspace, **no background daemon, no sudo** —
 so eggs boot in seconds and run lean, <b><i>ultra fast</i></b> like a real machine with a serious punch 👊.
+
+This repository only holds the downloads. Everything else — what Egg is, the egg
+catalog, docs and pricing — lives at **[eggrun.ai](https://eggrun.ai)**.
 
 ## Downloads
 
@@ -34,7 +41,7 @@ so eggs boot in seconds and run lean, <b><i>ultra fast</i></b> like a real machi
 | [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.dmg) | Disk image — drag to Applications |
 | [`Egg Run.app.tar.gz`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.app.tar.gz) | App bundle (what the in-app updater installs) |
 
-> Requires macOS 14.0 or later, Apple Silicon. The `.pkg` and `.dmg` are both
+> Requires macOS 15 or later, Apple Silicon. The `.pkg` and `.dmg` are both
 > signed and notarized; the `.pkg` is recommended since it installs to
 > **/Applications** for you.
 
@@ -64,6 +71,7 @@ curl -L "https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.
 
 - Website: [eggrun.ai](https://eggrun.ai)
 - Docs: [eggrun.ai/docs](https://eggrun.ai/docs)
+- Releases: [every version, with notes](https://github.com/EggRunAI/egg-downloads/releases)
 
 ## License
 
