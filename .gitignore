@@ -1,0 +1,6 @@
+# Build artifacts are GitHub Release assets, never committed (release.sh).
+*.pkg
+*.dmg
+*.tar.gz
+*.sig
+.DS_Store
