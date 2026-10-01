@@ -30,9 +30,9 @@ so eggs boot in seconds and run lean, <b><i>ultra fast</i></b> like a real machi
 
 | File | Description |
 |------|-------------|
-| [`Egg Run.pkg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg%20Run.pkg) | **Installer (recommended)** — double-click, installs to Applications |
-| [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg%20Run.dmg) | Disk image — drag to Applications |
-| [`Egg Run.app.tar.gz`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg%20Run.app.tar.gz) | App bundle (what the in-app updater installs) |
+| [`Egg Run.pkg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.pkg) | **Installer (recommended)** — double-click, installs to Applications |
+| [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.dmg) | Disk image — drag to Applications |
+| [`Egg Run.app.tar.gz`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.app.tar.gz) | App bundle (what the in-app updater installs) |
 
 > Requires macOS 14.0 or later, Apple Silicon. The `.pkg` and `.dmg` are both
 > signed and notarized; the `.pkg` is recommended since it installs to
@@ -43,20 +43,20 @@ so eggs boot in seconds and run lean, <b><i>ultra fast</i></b> like a real machi
 ### One-liner (recommended)
 
 ```bash
-curl -L "https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg%20Run.pkg" -o ~/Downloads/Egg\ Run.pkg && open ~/Downloads/Egg\ Run.pkg
+curl -L "https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.pkg" -o ~/Downloads/Egg\ Run.pkg && open ~/Downloads/Egg\ Run.pkg
 ```
 
 ### Manual
 
 **Installer (.pkg) — recommended**
 
-1. Download [`Egg Run.pkg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg%20Run.pkg)
+1. Download [`Egg Run.pkg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.pkg)
 2. Double-click it and follow the installer — Egg Run is placed in Applications automatically
 3. Launch Egg Run from Applications
 
 **Disk image (.dmg) — alternative**
 
-1. Download [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg%20Run.dmg)
+1. Download [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.dmg)
 2. Open the disk image and drag **Egg Run** to Applications
 3. Launch Egg Run from Applications
 

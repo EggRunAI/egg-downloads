@@ -8,6 +8,8 @@
 # signed + notarized artifacts next to this script:
 #     Egg Run.app.tar.gz  Egg Run.app.tar.gz.sig  Egg Run.pkg  Egg Run.dmg
 #
+# GitHub stores release assets with spaces turned into dots ("Egg.Run.pkg"), so
+# every URL below uses the dotted names.
 # What a release is: a tag v<version> on this repo with those four files as
 # release assets (GitHub's CDN; versioned; never overwritten — a published
 # version is immutable, a bad one is rolled back by re-pointing `latest`),
@@ -59,7 +61,7 @@ cat > latest.json <<EOF
   "platforms": {
     "darwin-aarch64": {
       "signature": "$SIG",
-      "url": "$ASSET_BASE/Egg%20Run.app.tar.gz"
+      "url": "$ASSET_BASE/Egg.Run.app.tar.gz"
     }
   }
 }

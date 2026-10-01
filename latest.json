@@ -5,7 +5,7 @@
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTJKLzcvT3pNR1ovOGJwS3dkK0hPV1hCUVdwQXdpTUp5ZE4rM2R2WXdmRHQ4SW5OTUc3YllUV043MzhrenRMQXJ4UzY0aFRFZkZxMUI2R0VEV2hPRkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODI5NDczCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmtET2pLdjZPTHp0SkpQWW1CVXpRQW1VWTF6b3lqdGxwamd3RUhLQ3AxQVNSYlhkeHZEZXJnUXhkSEZycXlhVU1pNDhOQzdSc1JPVnFxOFVyNFR5MEF3PT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.0/Egg%20Run.app.tar.gz"
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.0/Egg.Run.app.tar.gz"
     }
   }
 }
