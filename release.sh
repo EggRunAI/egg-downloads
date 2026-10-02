@@ -3,6 +3,9 @@
 #
 #   ./release.sh            # version from EggRun's root Cargo.toml [workspace.package]
 #   ./release.sh --dry-run  # show what would happen
+#   ./release.sh --replace  # re-upload this version's assets over an existing
+#                           # tag (only for a release nobody could have
+#                           # installed yet — a published version is immutable)
 #
 # Run by egg-app/osx.sh at the end of `osx.sh notarize`, after it has copied the
 # signed + notarized artifacts next to this script:
@@ -22,7 +25,8 @@ set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 REPO="EggRunAI/egg-downloads"
 APP="Egg Run"
-DRY=0; [ "${1:-}" = "--dry-run" ] && DRY=1
+DRY=0; REPLACE=0
+for a in "$@"; do case "$a" in --dry-run) DRY=1 ;; --replace) REPLACE=1 ;; *) echo "release: unknown option $a" >&2; exit 2 ;; esac; done
 die() { echo "release: $*" >&2; exit 1; }
 
 # One version, from the workspace: the same number version.sh stamps into every
@@ -41,6 +45,7 @@ done
 # a number no artifact has.
 BUILT=$(tar -xzOf "$APP.app.tar.gz" "$APP.app/Contents/Info.plist" | plutil -extract CFBundleShortVersionString raw - 2>/dev/null || true)
 [ "$BUILT" = "$VERSION" ] || die "artifact is $BUILT, Cargo.toml says $VERSION — refusing"
+tar -tzf "$APP.app.tar.gz" | grep -q "Contents/Resources/egg$" || die "updater tarball has no egg runner — it must be re-tarred from the finished .app, not Tauri's bundle-time artifact"
 command -v gh >/dev/null || die "gh (GitHub CLI) is required"
 gh auth status >/dev/null 2>&1 || die "gh is not logged in"
 [ -f floor.json ] || die "floor.json is missing (min_required / min_recommended)"
@@ -80,10 +85,13 @@ echo "release $TAG: $(du -h "$APP.pkg" | cut -f1) pkg, $(du -h "$APP.app.tar.gz"
 if [ "$DRY" = 1 ]; then cat latest.json; echo "(dry run: no release, no push)"; exit 0; fi
 
 if gh release view "$TAG" -R "$REPO" >/dev/null 2>&1; then
-    die "$TAG already exists — a published version is immutable; bump the version"
+    [ "$REPLACE" = 1 ] || die "$TAG already exists — a published version is immutable; bump the version (or --replace if nobody could have installed it)"
+    gh release upload "$TAG" -R "$REPO" --clobber "$APP.app.tar.gz" "$APP.app.tar.gz.sig" "$APP.pkg" "$APP.dmg" latest.json
+    gh release edit "$TAG" -R "$REPO" --notes "${NOTES:-Egg v$VERSION}"
+else
+    gh release create "$TAG" -R "$REPO" --title "Egg Run $VERSION" --notes "${NOTES:-Egg v$VERSION}" \
+        "$APP.app.tar.gz" "$APP.app.tar.gz.sig" "$APP.pkg" "$APP.dmg" latest.json
 fi
-gh release create "$TAG" -R "$REPO" --title "Egg Run $VERSION" --notes "${NOTES:-Egg v$VERSION}" \
-    "$APP.app.tar.gz" "$APP.app.tar.gz.sig" "$APP.pkg" "$APP.dmg" latest.json
 # latest.json also lives on main: the website reads it, and git shows what shipped.
 git add latest.json
 git commit -q -m "$TAG" || true
