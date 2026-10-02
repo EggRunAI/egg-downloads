@@ -5,6 +5,11 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.2] — 2026-10-02
+
+- The update banner says up front when macOS will ask for your password.
+- Release packaging fix: the in-app update bundle always carries the egg runner.
+
 ## [0.6.1] — 2026-10-02
 
 - Egg now keeps itself up to date: it checks for new versions on launch and
