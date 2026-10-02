@@ -5,6 +5,16 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.1] — 2026-10-02
+
+- Egg now keeps itself up to date: it checks for new versions on launch and
+  every few hours, downloads them in the background, and offers "Update and
+  restart" on the desk.
+- Alpine joins Ubuntu and Ubuntu Server as a starter on the desk.
+- WebGPU content renders in Windows eggs (Chrome and Edge with
+  `--enable-unsafe-webgpu`).
+- A Windows egg no longer comes back with a blank screen after a shutdown.
+
 ## [0.6.0] — 2026-10-01
 
 - First public build: the Egg desk with the Ubuntu, Ubuntu Server and Alpine
