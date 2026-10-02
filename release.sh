@@ -43,7 +43,8 @@ BUILT=$(tar -xzOf "$APP.app.tar.gz" "$APP.app/Contents/Info.plist" | plutil -ext
 [ "$BUILT" = "$VERSION" ] || die "artifact is $BUILT, Cargo.toml says $VERSION — refusing"
 command -v gh >/dev/null || die "gh (GitHub CLI) is required"
 gh auth status >/dev/null 2>&1 || die "gh is not logged in"
-[ -z "$(git status --porcelain -- README.md CHANGELOG.md)" ] || die "commit README/CHANGELOG first"
+[ -f floor.json ] || die "floor.json is missing (min_required / min_recommended)"
+[ -z "$(git status --porcelain -- README.md CHANGELOG.md floor.json)" ] || die "commit README/CHANGELOG/floor.json first"
 
 SIG=$(cat "$APP.app.tar.gz.sig")
 PUB_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -53,11 +54,18 @@ ASSET_BASE="https://github.com/$REPO/releases/download/$TAG"
 NOTES=$(awk -v v="## [$VERSION]" 'index($0,v)==1{f=1;next} f&&/^## \[/{exit} f' CHANGELOG.md | sed '/^$/d' | head -20)
 NOTES_JSON=$(printf '%s' "${NOTES:-Egg v$VERSION}" | python3 -c 'import json,sys; print(json.dumps(sys.stdin.read()))')
 
+# The version floor the desk enforces (docs/AUTO_UPDATE.md 2d) rides in the
+# same file: floor.json holds the two numbers, edited by hand and committed;
+# Tauri ignores the extra keys, the app reads them through update_policy.
+MIN_REQUIRED=$(python3 -c 'import json; print(json.load(open("floor.json")).get("min_required",""))')
+MIN_RECOMMENDED=$(python3 -c 'import json; print(json.load(open("floor.json")).get("min_recommended",""))')
 cat > latest.json <<EOF
 {
   "version": "$VERSION",
   "notes": $NOTES_JSON,
   "pub_date": "$PUB_DATE",
+  "min_required": "$MIN_REQUIRED",
+  "min_recommended": "$MIN_RECOMMENDED",
   "platforms": {
     "darwin-aarch64": {
       "signature": "$SIG",

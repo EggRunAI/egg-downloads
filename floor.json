@@ -1,0 +1,5 @@
+{
+  "_": "The version floor the Egg desk enforces (docs/AUTO_UPDATE.md 2d). Below min_required the desk blocks until updated; below min_recommended it nags. Empty = no floor. Edit, commit, then re-run release.sh (or re-upload latest.json) to apply.",
+  "min_required": "",
+  "min_recommended": ""
+}
