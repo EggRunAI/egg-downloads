@@ -1,13 +1,13 @@
 {
-  "version": "0.6.2",
-  "notes": "- The update banner says up front when macOS will ask for your password.\n- Release packaging fix: the in-app update bundle always carries the egg runner.",
-  "pub_date": "2026-10-02T18:49:43Z",
+  "version": "0.6.3",
+  "notes": "- A running egg shows its own logo in the Dock and Cmd-Tab, named after the\n  egg; the window title is the egg's name.\n- The stream mark moved to the top-right, below the guest's top bar.",
+  "pub_date": "2026-10-02T22:16:19Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTJxa25paWlYdHltTXBFVG8zWjFORWRjTWhka2F2MHNnbEsvd3hseVRIdHd2UXZ1VllsMXRyRW5JZ3RUaFo4eGh1Q2pKcDBJeUxKdVJqdjVXWmovdGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTY2OTA3CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Ck5UeDRqZW82QjM4MVdKd3JKaHI0OUx0cHFXR0pBK0NiYkxzQVUwOWdmL0d5S21QRERhWUt0bmU1eHEydEczWEtiVy9LWjVXUGxHWS9NUE1zLzhQQURRPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.2/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTlvUUtCRnp5Rzd4ZDYxNmM5ZFZoRUZ5SUJhSGhDMVZXcEg5NUVjTUhpRTEwbFB3UU82dUJ4d2tRWmxEVEZGeXRsbjdvcmE0OVVsRmZ5RG14M09NOEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTc5MjU4CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmczY1JQczMxNjRBSjdmR3VZQkRKTU12ZTFvdzdLM29IWjM4QlRFdi9GVjhla1oxV3RPNEhRc0JIV28rc25kYkpjZFJQckVyMDl5aldDczFkM21mM0RRPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.3/Egg.Run.app.tar.gz"
     }
   }
 }
