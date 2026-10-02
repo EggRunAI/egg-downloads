@@ -5,6 +5,12 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.3] — 2026-10-02
+
+- A running egg shows its own logo in the Dock and Cmd-Tab, named after the
+  egg; the window title is the egg's name.
+- The stream mark moved to the top-right, below the guest's top bar.
+
 ## [0.6.2] — 2026-10-02
 
 - The update banner says up front when macOS will ask for your password.
