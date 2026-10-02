@@ -1,12 +1,12 @@
 {
   "version": "0.6.1",
   "notes": "- Egg now keeps itself up to date: it checks for new versions on launch and\n  every few hours, downloads them in the background, and offers \"Update and\n  restart\" on the desk.\n- Alpine joins Ubuntu and Ubuntu Server as a starter on the desk.\n- WebGPU content renders in Windows eggs (Chrome and Edge with\n  `--enable-unsafe-webgpu`).\n- A Windows egg no longer comes back with a blank screen after a shutdown.",
-  "pub_date": "2026-10-02T15:20:09Z",
+  "pub_date": "2026-10-02T15:34:29Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTROVnI0QUNyQ2lqcjdjU09uTUVweW9DL3hkdWl3T3hqSHdZMElxeWUzNlhVNm02WDJSSkVSSjE2UzhESXlCeHFPMlBDdER3UHphZ1FCaERLdE9DZ1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTU0MzYxCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cnl3bUd4VnZMekVQMEF5cjZ0RDExMjQva3pEL0pxZkZ5SHpVemczdERGdmhQdWt4VGNIZ0QwcjdLWmZyc0pRQTRDREIyL0cxdHFzdXdMcG9jY3VySEF3PT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTd5R21nR1RyUlV0VnBnYzF6bk1WR29PdXhnOW5IRDFjRkduNmpLUXV1QW91eFFCUm9LUGMwRTd6UjZrbEdzeUhCNzVhVHdVS3NXNlpXVUF4c29PbncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTU1MTkwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkZuMTdjeTA4QnJyQVNmZmtWOHVEY01sYnB3dE93VXpYMWFZa2wrcFBQMkJDRmlCcm51WUlPT1huc2QrS080cWVpQW5ySkpJRTZnM0JHSThlNTBPUURRPT0K",
       "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.1/Egg.Run.app.tar.gz"
     }
   }
