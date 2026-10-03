@@ -5,6 +5,16 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.4] — 2026-10-03
+
+- Eggfile: new `STREAM ws|webrtc|off` directive. Streaming is now opt-in for
+  built eggs; without it an egg runs in its native window and the app shows
+  a preview.
+- Eggfile `DISPLAY` (size and `scale=`) now governs every build phase, the
+  installer window included.
+- Week-1 eggs rebuilt: `egg/ubuntu-26-desktop` is 2× (Retina-sharp) and
+  resumes straight into the desktop — no welcome wizard, no update bubble.
+
 ## [0.6.3] — 2026-10-02
 
 - A running egg shows its own logo in the Dock and Cmd-Tab, named after the
