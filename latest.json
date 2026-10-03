@@ -1,13 +1,13 @@
 {
-  "version": "0.6.4",
-  "notes": "- Eggfile: new `STREAM ws|webrtc|off` directive. Streaming is now opt-in for\n  built eggs; without it an egg runs in its native window and the app shows\n  a preview.\n- Eggfile `DISPLAY` (size and `scale=`) now governs every build phase, the\n  installer window included.\n- Week-1 eggs rebuilt: `egg/ubuntu-26-desktop` is 2\u00d7 (Retina-sharp) and\n  resumes straight into the desktop \u2014 no welcome wizard, no update bubble.",
-  "pub_date": "2026-10-03T18:22:28Z",
+  "version": "0.6.5",
+  "notes": "- Desk icons and Dock tiles now share one raised style; the gloss highlight\n  shows on logo tiles too.\n- The install progress ring is yolk gold \u2014 it was white, and invisible on the\n  light desk.",
+  "pub_date": "2026-10-03T18:53:07Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXhubU9hcUlaUnJBNklkVE5BK0d0YXFRb1c0ZGgvRGw2NlNtTzRIQk4xeXVBWW1yc1VwTGhuaW5JRkhpWTRiNXdTaUVORHpHQ1paV29HOTRuQVdRRHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDUxNjc3CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CnJ0ajZnV2UyWVh0Mk9wSXo3NjhjTWkxQzRVbzJiQVdoUmkvMExlRnhkUVJjcm9teTFuajl2T2FJODFZM05IOTNKT09rOWZBUjJzaDRBRE50ZkpCbUR3PT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.4/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXcrUE8yeFhoeVVCOVFxb3pjWUNQU3VNZEtESW5RUHFHKzFuMVRPa0EwMWFCSjlXOWRQZFFBeUU0eUNjd1c0VWNzenp0Uk1oMGsrVFdUUTFOYng2SEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDUzNTEwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cm9nUE9qd1hrUHZpVTFxd3JoMkxHTTRSbHVzbUF3NkVIMk52QWZVT2FmTXJ2RDFPWExMZ2hYL2pDdVpUR1poQlNoN2Jia2pDdTYvWEliekRGNUhqdkRBPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.5/Egg.Run.app.tar.gz"
     }
   }
 }
