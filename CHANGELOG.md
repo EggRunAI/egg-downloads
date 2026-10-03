@@ -5,6 +5,13 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.5] — 2026-10-03
+
+- Desk icons and Dock tiles now share one raised style; the gloss highlight
+  shows on logo tiles too.
+- The install progress ring is yolk gold — it was white, and invisible on the
+  light desk.
+
 ## [0.6.4] — 2026-10-03
 
 - Eggfile: new `STREAM ws|webrtc|off` directive. Streaming is now opt-in for
