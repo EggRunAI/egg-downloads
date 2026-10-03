@@ -46,6 +46,7 @@ done
 BUILT=$(tar -xzOf "$APP.app.tar.gz" "$APP.app/Contents/Info.plist" | plutil -extract CFBundleShortVersionString raw - 2>/dev/null || true)
 [ "$BUILT" = "$VERSION" ] || die "artifact is $BUILT, Cargo.toml says $VERSION — refusing"
 tar -tzf "$APP.app.tar.gz" | grep -q "Contents/Resources/egg$" || die "updater tarball has no egg runner — it must be re-tarred from the finished .app, not Tauri's bundle-time artifact"
+tar -tzf "$APP.app.tar.gz" | grep -q "/\._\|^\._" && die "updater tarball has AppleDouble (._*) entries — tar it with COPYFILE_DISABLE=1 --no-xattrs --no-mac-metadata"
 command -v gh >/dev/null || die "gh (GitHub CLI) is required"
 gh auth status >/dev/null 2>&1 || die "gh is not logged in"
 [ -f floor.json ] || die "floor.json is missing (min_required / min_recommended)"
