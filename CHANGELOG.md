@@ -5,6 +5,29 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.6] — 2026-10-04
+
+- Fixed: a warm-restored desktop egg no longer freezes on screen. GL objects
+  are now rebuilt per sub-context after a restore, so GNOME draws again and
+  input works; `egg/ubuntu-26-desktop` resumes to a live desktop in about a
+  second.
+- Egg Card: right-click a desk egg, or pick one in Search, for its
+  marketplace card — logo, facts, screenshots, the publisher's notes, and
+  Install / Open.
+- The fresh desk's three starters take their names and logos from the hub,
+  so an icon looks the same before and after install.
+- An egg without a stream has only its native window: no app window flashes
+  while it starts. The install ring appears on the double-click.
+- Each egg's screenshots and recordings live in its own `screenshots/` and
+  `recordings/` folders; "Show Screenshots" and "Show Recordings" open them
+  from the egg window and the desk menu.
+- The egg window's footer uses icons for uptime, CPUs, memory, display and
+  GPU, shows the display as the Eggfile declares it (`1280×960@2x`), and
+  links to eggrun.ai.
+- Machine rows show the OS the egg actually runs, read from the bundle.
+- `egg/ubuntu-26-desktop` 2026.10.04: the full Ubuntu desktop with Firefox,
+  Chromium, Thunderbird, LibreOffice and App Center pinned to the dock.
+
 ## [0.6.5] — 2026-10-03
 
 - Desk icons and Dock tiles now share one raised style; the gloss highlight
