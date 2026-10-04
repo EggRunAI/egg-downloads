@@ -1,13 +1,13 @@
 {
-  "version": "0.6.5",
-  "notes": "- Desk icons and Dock tiles now share one raised style; the gloss highlight\n  shows on logo tiles too.\n- The install progress ring is yolk gold \u2014 it was white, and invisible on the\n  light desk.",
-  "pub_date": "2026-10-03T18:53:07Z",
+  "version": "0.6.6",
+  "notes": "- Fixed: a warm-restored desktop egg no longer freezes on screen. GL objects\n  are now rebuilt per sub-context after a restore, so GNOME draws again and\n  input works; `egg/ubuntu-26-desktop` resumes to a live desktop in about a\n  second.\n- Egg Card: right-click a desk egg, or pick one in Search, for its\n  marketplace card \u2014 logo, facts, screenshots, the publisher's notes, and\n  Install / Open.\n- The fresh desk's three starters take their names and logos from the hub,\n  so an icon looks the same before and after install.\n- An egg without a stream has only its native window: no app window flashes\n  while it starts. The install ring appears on the double-click.\n- Each egg's screenshots and recordings live in its own `screenshots/` and\n  `recordings/` folders; \"Show Screenshots\" and \"Show Recordings\" open them\n  from the egg window and the desk menu.\n- The egg window's footer uses icons for uptime, CPUs, memory, display and\n  GPU, shows the display as the Eggfile declares it (`1280\u00d7960@2x`), and\n  links to eggrun.ai.\n- Machine rows show the OS the egg actually runs, read from the bundle.\n- `egg/ubuntu-26-desktop` 2026.10.04: the full Ubuntu desktop with Firefox,\n  Chromium, Thunderbird, LibreOffice and App Center pinned to the dock.",
+  "pub_date": "2026-10-04T12:16:17Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXcrUE8yeFhoeVVCOVFxb3pjWUNQU3VNZEtESW5RUHFHKzFuMVRPa0EwMWFCSjlXOWRQZFFBeUU0eUNjd1c0VWNzenp0Uk1oMGsrVFdUUTFOYng2SEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDUzNTEwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cm9nUE9qd1hrUHZpVTFxd3JoMkxHTTRSbHVzbUF3NkVIMk52QWZVT2FmTXJ2RDFPWExMZ2hYL2pDdVpUR1poQlNoN2Jia2pDdTYvWEliekRGNUhqdkRBPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.5/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXhqUHNDSDluRlFNV3p1UGtRV3JXb3VTcHhjUFBwNXNBcWk0MUUyQnVWNmx5QnhwNU5HTzRyaWtzQno2NU5Ccm9GMXZTNEZLUk94U1BKWDNKYisxSFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTE2MDg2CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6ClFyNzRPMTZOdmlxQUlPc3Z2QUtzYXE1MGpBZjgyTmFnU1lmY2p4dGx4OUNVcmY2ZVlrN1dTWmljaEVIVjRtRVpBZDN6YXY4aEJ5Q0JtRS84aUFEUUNRPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.6/Egg.Run.app.tar.gz"
     }
   }
 }
