@@ -5,6 +5,16 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.7] — 2026-10-05
+
+- A welcome on first launch: a handwritten hello, a turning egg that wears
+  the Linux marks and takes each one's colours, then your eggrun.ai account
+  with Sign in or Remind me later. Any key moves on; Help ▸ Replay Welcome
+  plays it again.
+- The account ask on the desk is one line above the dock, with Sign in and a
+  dismiss that is remembered. It comes back only if a pull needs an account.
+- The Fedora mark is drawn as a glyph on its tile, not stretched to fill it.
+
 ## [0.6.6] — 2026-10-04
 
 - Fixed: a warm-restored desktop egg no longer freezes on screen. GL objects
