@@ -5,81 +5,82 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.8] — 2026-10-05
+
+- A dark, flicker-free launch: the window appears only once the app has
+  drawn, so you no longer see a white flash before the welcome.
+- The welcome's hello holds each word a little longer, never clips the
+  handwriting, and Skip is available on every step.
+- The Ubuntu Server and Alpine eggs now set their clocks correctly when they
+  resume from a snapshot. Pull them again to get the new builds.
+- The account note above the dock reads "Faster downloads, backups, safety
+  news."
+
 ## [0.6.7] — 2026-10-05
 
-- A welcome on first launch: a handwritten hello, a turning egg that wears
-  the Linux marks and takes each one's colours, then your eggrun.ai account
-  with Sign in or Remind me later. Any key moves on; Help ▸ Replay Welcome
-  plays it again.
-- The account ask on the desk is one line above the dock, with Sign in and a
-  dismiss that is remembered. It comes back only if a pull needs an account.
-- The Fedora mark is drawn as a glyph on its tile, not stretched to fill it.
+- A welcome on first launch: a handwritten hello, a turning egg that takes
+  on the colours of each Linux flavour, then a chance to sign in to your
+  eggrun.ai account or be reminded later. Any key moves on; Help ▸ Replay
+  Welcome plays it again.
+- A one-line note above the dock invites you to sign in, with a dismiss that
+  is remembered.
+- The Fedora logo is drawn correctly on its tile.
 
 ## [0.6.6] — 2026-10-04
 
-- Fixed: a warm-restored desktop egg no longer freezes on screen. GL objects
-  are now rebuilt per sub-context after a restore, so GNOME draws again and
-  input works; `egg/ubuntu-26-desktop` resumes to a live desktop in about a
-  second.
-- Egg Card: right-click a desk egg, or pick one in Search, for its
-  marketplace card — logo, facts, screenshots, the publisher's notes, and
-  Install / Open.
-- The fresh desk's three starters take their names and logos from the hub,
-  so an icon looks the same before and after install.
-- An egg without a stream has only its native window: no app window flashes
-  while it starts. The install ring appears on the double-click.
-- Each egg's screenshots and recordings live in its own `screenshots/` and
-  `recordings/` folders; "Show Screenshots" and "Show Recordings" open them
-  from the egg window and the desk menu.
-- The egg window's footer uses icons for uptime, CPUs, memory, display and
-  GPU, shows the display as the Eggfile declares it (`1280×960@2x`), and
-  links to eggrun.ai.
-- Machine rows show the OS the egg actually runs, read from the bundle.
-- `egg/ubuntu-26-desktop` 2026.10.04: the full Ubuntu desktop with Firefox,
-  Chromium, Thunderbird, LibreOffice and App Center pinned to the dock.
+- Fixed: an Ubuntu Desktop egg resuming from a snapshot no longer freezes.
+  It comes back to a live desktop in about a second.
+- Egg Card: right-click an egg on the desk, or pick one in Search, to read
+  its card — logo, facts, screenshots and the publisher's notes — and
+  install or open it from there.
+- The three starter eggs on a fresh desk take their names and logos from the
+  hub, so an icon looks the same before and after install.
+- Starting an egg no longer flashes an empty window; the install progress
+  ring appears as soon as you double-click.
+- Show Screenshots and Show Recordings open each egg's own folders, from the
+  egg window and from the desk menu.
+- The egg window's footer shows uptime, CPUs, memory, display and GPU with
+  icons, and links to eggrun.ai.
+- The desk shows the system each egg really runs.
+- Ubuntu Desktop ships with Firefox, Chromium, Thunderbird, LibreOffice and
+  App Center in the dock.
 
 ## [0.6.5] — 2026-10-03
 
-- Desk icons and Dock tiles now share one raised style; the gloss highlight
-  shows on logo tiles too.
-- The install progress ring is yolk gold — it was white, and invisible on the
-  light desk.
+- Desk icons and Dock tiles share one raised look.
+- The install progress ring is yolk gold, so it is visible on the light desk.
 
 ## [0.6.4] — 2026-10-03
 
-- Eggfile: new `STREAM ws|webrtc|off` directive. Streaming is now opt-in for
-  built eggs; without it an egg runs in its native window and the app shows
-  a preview.
-- Eggfile `DISPLAY` (size and `scale=`) now governs every build phase, the
-  installer window included.
-- Week-1 eggs rebuilt: `egg/ubuntu-26-desktop` is 2× (Retina-sharp) and
-  resumes straight into the desktop — no welcome wizard, no update bubble.
+- Eggs can be built to open in their own window instead of streaming into
+  the app; the app then shows a preview.
+- Ubuntu Desktop is Retina-sharp and resumes straight into the desktop, with
+  no setup wizard and no update bubble.
 
 ## [0.6.3] — 2026-10-02
 
 - A running egg shows its own logo in the Dock and Cmd-Tab, named after the
-  egg; the window title is the egg's name.
-- The stream mark moved to the top-right, below the guest's top bar.
+  egg, and its window carries the egg's name.
+- The stream indicator moved to the top-right, out of the way.
 
 ## [0.6.2] — 2026-10-02
 
 - The update banner says up front when macOS will ask for your password.
-- Release packaging fix: the in-app update bundle always carries the egg runner.
+- Fixed in-app updates so every update carries everything it needs.
 
 ## [0.6.1] — 2026-10-02
 
-- Egg now keeps itself up to date: it checks for new versions on launch and
+- Egg keeps itself up to date: it checks for new versions on launch and
   every few hours, downloads them in the background, and offers "Update and
   restart" on the desk.
 - Alpine joins Ubuntu and Ubuntu Server as a starter on the desk.
-- WebGPU content renders in Windows eggs (Chrome and Edge with
-  `--enable-unsafe-webgpu`).
-- A Windows egg no longer comes back with a blank screen after a shutdown.
+- Windows eggs can run modern 3D web content in Chrome and Edge.
+- A Windows egg no longer comes back to a blank screen after a shutdown.
 
 ## [0.6.0] — 2026-10-01
 
 - First public build: the Egg desk with the Ubuntu, Ubuntu Server and Alpine
-  starters — double-click one to install it.
+  starters. Double-click one to install it.
 
 ## [0.3.0] — 2026-07-01
 
