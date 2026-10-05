@@ -1,13 +1,13 @@
 {
-  "version": "0.6.7",
-  "notes": "- A welcome on first launch: a handwritten hello, a turning egg that wears\n  the Linux marks and takes each one's colours, then your eggrun.ai account\n  with Sign in or Remind me later. Any key moves on; Help \u25b8 Replay Welcome\n  plays it again.\n- The account ask on the desk is one line above the dock, with Sign in and a\n  dismiss that is remembered. It comes back only if a pull needs an account.\n- The Fedora mark is drawn as a glyph on its tile, not stretched to fill it.",
-  "pub_date": "2026-10-05T05:08:46Z",
+  "version": "0.6.8",
+  "notes": "- A dark, flicker-free launch: the window appears only once the app has\n  drawn, so you no longer see a white flash before the welcome.\n- The welcome's hello holds each word a little longer, never clips the\n  handwriting, and Skip is available on every step.\n- The Ubuntu Server and Alpine eggs now set their clocks correctly when they\n  resume from a snapshot. Pull them again to get the new builds.\n- The account note above the dock reads \"Faster downloads, backups, safety\n  news.\"",
+  "pub_date": "2026-10-05T21:15:13Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTMxU1hPVmxxaVdJWmRPN3ZBamx6N2I2QSt3N0JwcnlsNGowSGR6S1o5MktmU2t1eEFIUnh5dSsyVlJFTnY3SENHYnhnRTRmZlBEMWVVM1FHNlpFZFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTc2ODUwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CitLakFxUGtQNGxJV0M4djcxZVFwdmZiVUdMejNZUi94b1NvOU5oWFVsWWR5dVFscVFyeTcwdUtrR3N1UkF6YTdKWm1YN3l0U3FhNzMwVUMrdXJtckJBPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.7/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTBzQ2pnZE5XSzVZN3gyM2JRYVlsckIrNVdVTTgyS3lndXBSbk1DQWYwaXNuVlBoT1g2MHpZRXU1OUYwYWFHLzNJRFZ2MlQwbndmdkIyc0ova0VqWFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjM0ODM0CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmRvNXV4OG4xTjR0N2V3NXVIWXMvTUdJR21NWXp1Tk9RZ3NuaUdlYTA3TjVpcFJUWmc1bXEwMnFCS0NHcnlpSFVTdDlOd1d3NGRxSExoVlN4MS9nRERnPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.8/Egg.Run.app.tar.gz"
     }
   }
 }
