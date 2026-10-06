@@ -5,14 +5,6 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
-## [0.6.9] — 2026-10-06
-
-- Linux desktops that draw with Vulkan, such as Pop!_OS COSMIC and Ubuntu,
-  no longer freeze or tear. Windows, menus and dropdowns appear cleanly and
-  stay in step with your typing.
-- The mouse pointer lines up exactly with the guest screen at any window
-  size, including when the window is wider or taller than the guest.
-
 ## [0.6.8] — 2026-10-05
 
 - A dark, flicker-free launch: the window appears only once the app has
