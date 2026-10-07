@@ -1,13 +1,13 @@
 {
-  "version": "0.6.8",
-  "notes": "- A dark, flicker-free launch: the window appears only once the app has\n  drawn, so you no longer see a white flash before the welcome.\n- The welcome's hello holds each word a little longer, never clips the\n  handwriting, and Skip is available on every step.\n- The Ubuntu Server and Alpine eggs now set their clocks correctly when they\n  resume from a snapshot. Pull them again to get the new builds.\n- The account note above the dock reads \"Faster downloads, backups, safety\n  news.\"",
-  "pub_date": "2026-10-05T21:15:13Z",
+  "version": "0.6.9",
+  "notes": "Egg v0.6.9",
+  "pub_date": "2026-10-07T00:15:22Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTBzQ2pnZE5XSzVZN3gyM2JRYVlsckIrNVdVTTgyS3lndXBSbk1DQWYwaXNuVlBoT1g2MHpZRXU1OUYwYWFHLzNJRFZ2MlQwbndmdkIyc0ova0VqWFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjM0ODM0CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmRvNXV4OG4xTjR0N2V3NXVIWXMvTUdJR21NWXp1Tk9RZ3NuaUdlYTA3TjVpcFJUWmc1bXEwMnFCS0NHcnlpSFVTdDlOd1d3NGRxSExoVlN4MS9nRERnPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.8/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXk4V1BObUdwb0xPM3BCcFNQb3FSQm8wYUtBMDVHS2VaV2wvYXRsR3hUOHpTdDNia2hEV0NxZWV5NEMvM3VuVHhBRUtvRk9QQ0JJQnBNQnE0WDdFYkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzMxNTAwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkJSTnhCWTkwQWlQZjNJRHRuMjNGN0l1Q2pOMEhSMFlnVExZWCtBYmNLNkN1YnJlSytzQU1SSitnWnplRkx3cVlKL0lCV29Va2E2d0JGS2RSNzhFWkJRPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.9/Egg.Run.app.tar.gz"
     }
   }
 }
