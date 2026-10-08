@@ -83,3 +83,12 @@ Apple, Apple Silicon, macOS, and Hypervisor.framework are trademarks of Apple In
 registered in the U.S. and other countries and regions. Egg Run is built on Apple
 Hypervisor.framework but is **not affiliated with, endorsed by, or sponsored by
 Apple Inc.** All other trademarks are the property of their respective owners.
+
+## desk.json
+
+The eggs a fresh desk offers in the desktop app, in order. The app reads this file
+from `main` at launch and every few hours, keeps the last good copy, and falls back
+to its built-in list only when it has never fetched one. `min_app` hides an entry
+from apps older than that version; it does not force an update (that is `floor.json`).
+Edit, commit, push: live within a minute, no release needed. Title, icon and class
+of each egg come from its hub listing.
