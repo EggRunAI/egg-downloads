@@ -1,13 +1,13 @@
 {
-  "version": "0.6.9",
-  "notes": "Egg v0.6.9",
-  "pub_date": "2026-10-07T00:15:22Z",
+  "version": "0.6.10",
+  "notes": "- Diamond Linux joins the desk as a starter: Debian 13, GNOME, Chrome, and\n  Claude and Codex ready to sign in, from the dock and the terminal.\n- Typing in a Linux egg's window no longer reaches the egg's serial console.\n- The Alpine and Ubuntu Server eggs render sharp at 2x with a readable\n  console font. Pull them again to get the new builds.\n- /billing on eggrun.ai shows a Coming Soon page instead of a 404.",
+  "pub_date": "2026-10-08T19:51:01Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXk4V1BObUdwb0xPM3BCcFNQb3FSQm8wYUtBMDVHS2VaV2wvYXRsR3hUOHpTdDNia2hEV0NxZWV5NEMvM3VuVHhBRUtvRk9QQ0JJQnBNQnE0WDdFYkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzMxNTAwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkJSTnhCWTkwQWlQZjNJRHRuMjNGN0l1Q2pOMEhSMFlnVExZWCtBYmNLNkN1YnJlSytzQU1SSitnWnplRkx3cVlKL0lCV29Va2E2d0JGS2RSNzhFWkJRPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.9/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTNCN2trRXhKa1BmeU5wZVl0aVJYRzNBbWJ3RFJudCtxZmtGOHA1Y2hiclcyYkk1MUlSTkhIcG9oVm9hdEhUVUJreHkwbDJCQ0FzbG1aZXprQndVWHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDg4OTM4CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cmp1OXFOMzF1WGpKVlJyNDJzOWtTOE84WmFPTFJqNnhXVW5wQVN6U3pCNzlLMSs1WUYxelZUYkFMbkdhYjA0UExtSzRpT2RtR0FhWFZLbTlDY1FMS0FnPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.10/Egg.Run.app.tar.gz"
     }
   }
 }
