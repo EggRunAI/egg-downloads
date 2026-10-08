@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "pages": [
+    { "id": "start-here",   "title": "Start here",            "file": "start-here.md" },
+    { "id": "diamond",      "title": "Vibe coding in Diamond", "file": "diamond.md" },
+    { "id": "desk",         "title": "Your desk",             "file": "desk.md" },
+    { "id": "menu-bar",     "title": "The egg in the menu bar", "file": "menu-bar.md" },
+    { "id": "shortcuts",    "title": "Keyboard shortcuts",    "file": "shortcuts.md" }
+  ]
+}
