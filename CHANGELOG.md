@@ -5,6 +5,20 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.11] — 2026-10-08
+
+- The welcome now asks which eggs to download, shows their size, and starts
+  the downloads before you reach sign-in; the desk shows the rings when you
+  land. Eggs you have not downloaded yet wear a Get badge.
+- Get Started: a guide on the desk with pictures for the things people
+  missed (downloading an egg, the right-click menu, the menu-bar egg,
+  Claude and Codex in Diamond). It updates without an app update.
+- Welcome.txt is now Notes.txt, a real file at ~/.egg/Notes.txt.
+- Right-click menus for Get Started and Notes.txt.
+- Removing an egg cleans up its leftover files; build debris no longer
+  appears as an egg.
+- The desk's starter list comes from eggrun's feed, not the app.
+
 ## [0.6.10] — 2026-10-08
 
 - Diamond Linux joins the desk as a starter: Debian 13, GNOME, Chrome, and
