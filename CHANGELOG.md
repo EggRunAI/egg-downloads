@@ -5,6 +5,15 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.10] — 2026-10-08
+
+- Diamond Linux joins the desk as a starter: Debian 13, GNOME, Chrome, and
+  Claude and Codex ready to sign in, from the dock and the terminal.
+- Typing in a Linux egg's window no longer reaches the egg's serial console.
+- The Alpine and Ubuntu Server eggs render sharp at 2x with a readable
+  console font. Pull them again to get the new builds.
+- /billing on eggrun.ai shows a Coming Soon page instead of a 404.
+
 ## [0.6.8] — 2026-10-05
 
 - A dark, flicker-free launch: the window appears only once the app has
