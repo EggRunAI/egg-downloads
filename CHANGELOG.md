@@ -5,6 +5,16 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.12] — 2026-10-09
+
+- About this egg: a panel in the egg's window that says how to sign in,
+  what is inside (the OS release, the installed packages) and how big the
+  machine is. It opens the first time you run an egg; the sidebar button in
+  the toolbar hides it, and the choice is remembered per egg.
+- Alpine opens straight on a root shell; no more login prompt. Pull it again
+  to get the new build.
+- Eggfiles can declare the account they create (`LOGIN`), and the hub shows it.
+
 ## [0.6.11] — 2026-10-08
 
 - The welcome now asks which eggs to download, shows their size, and starts
