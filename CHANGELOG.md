@@ -5,6 +5,18 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.13] — 2026-10-10
+
+- About this egg, finished: the Sign in section is always there, shows the
+  egg author's own sentence, keeps the password behind a Reveal button and
+  shows a dash when there is none. Whether you keep the panel open is
+  remembered per egg.
+- Eggfiles describe their account one fact per line: LOGIN_USER,
+  LOGIN_PASSWORD, LOGIN_AUTOLOGIN, LOGIN_HELPTEXT. Alpine on the hub is
+  built that way; pull it again to see it in the panel.
+- Alpine: hostname alpine, UTC, readable console font on every boot and
+  resume, internet checked at build time.
+
 ## [0.6.12] — 2026-10-09
 
 - About this egg: a panel in the egg's window that says how to sign in,
