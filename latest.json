@@ -1,13 +1,13 @@
 {
-  "version": "0.6.12",
-  "notes": "- About this egg: a panel in the egg's window that says how to sign in,\n  what is inside (the OS release, the installed packages) and how big the\n  machine is. It opens the first time you run an egg; the sidebar button in\n  the toolbar hides it, and the choice is remembered per egg.\n- Alpine opens straight on a root shell; no more login prompt. Pull it again\n  to get the new build.\n- Eggfiles can declare the account they create (`LOGIN`), and the hub shows it.",
-  "pub_date": "2026-10-09T23:06:42Z",
+  "version": "0.6.13",
+  "notes": "- About this egg, finished: the Sign in section is always there, shows the\n  egg author's own sentence, keeps the password behind a Reveal button and\n  shows a dash when there is none. Whether you keep the panel open is\n  remembered per egg.\n- Eggfiles describe their account one fact per line: LOGIN_USER,\n  LOGIN_PASSWORD, LOGIN_AUTOLOGIN, LOGIN_HELPTEXT. Alpine on the hub is\n  built that way; pull it again to see it in the panel.\n- Alpine: hostname alpine, UTC, readable console font on every boot and\n  resume, internet checked at build time.",
+  "pub_date": "2026-10-10T23:56:27Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTdzQ0IyNDlHZXB3amtZQXJKTk1RVVdFbDBnTEVwZXVQZmtqWXV6cHAyTWRXaWc4WTNvZFQzUUY3dnRhZm9DR0lIUmdaeXpnZFQxQnFoVTBHSWc2RWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTg3MTExCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkU4NEtYQlBzVTBoZnEvNzNHVlZPWEd4WUtCQ2gxYnE2czRrNjBCMXljMCtrd1hOWk14cHpHVDg2V1VTVzhIeElSWTZPNmJjaFhNSmxPNFlGZ2NQTEN3PT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.12/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbThnNEpHdi9UY2lXRStlVm5HZ2Y1QnFuTXREVFM3bTkyMlVjRm9LQlhXRFpGckNyNFAxRjNGeXhvTDhZeUxBZndyYnVBQWlHUmFqMVgzMDE4R0ZWN2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjc2Mzc4CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6ClpEaXpnaW9RRk10azRDUi83akFYNUhyT3FINVU3ZnJYWEpuTnFubFRvRmxVdU4zTDd4TUMwbTN1bGpBWjB2eHk4SHI2WGJpTnltcHR5dDR3RVlYSUN3PT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.13/Egg.Run.app.tar.gz"
     }
   }
 }
