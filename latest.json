@@ -1,13 +1,13 @@
 {
-  "version": "0.6.14",
-  "notes": "- About this egg, round two: copy works (click a value and \u2318C, or the Copy\n  button that confirms with Copied), the password sits behind an eye, the\n  panel closes with an \u00d7 and slides open and shut, and the toolbar button\n  lights up while it is open.\n- Packages: click \"N installed\" to see every package in the egg with its\n  version, filter as you type, and open the distro's page for any of them.\n- The panel's open/closed choice is kept with the egg, not in a hidden\n  preferences file.",
-  "pub_date": "2026-10-11T02:44:25Z",
+  "version": "0.6.15",
+  "notes": "- Security in the egg's panel: the hub's vulnerability scan of the build you\n  are running (Clean, or how many findings and how serious), affected\n  packages marked in the package list with their CVE ids, a \"Findings only\"\n  switch, and a Rescan that checks what is installed right now, after your\n  own upgrades, against OSV.\n- Package rows show the name and the full version on two lines; nothing is\n  cut off any more, and the list only scrolls up and down.",
+  "pub_date": "2026-10-11T20:58:39Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTU1TlErbW8vREJONzVZbG5CSDJkZTdTQWVxb1BheDFocGhqc0REYmxhUXN2dzNac3pXTVF1dUFrNEhyTVZVaDBjQmVXZWZMSksyY3RUOUVwUUp0dlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjg2NTcxCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Ck5HVVQ3MUpSYS80ZVhzYnNOZk5HbGJrZ0lVcGJib0Y5a0hTV09GQmVrT2dGMDZCUjRIRzBxQ0xJK0FicmFRanZuWE9xamExbHk4akcwemlvWlBMWEFRPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.14/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTliL0ZjUUZZMVk3Y1ZsTUdpU2VKSDEvc3kxZUNHVlBQZVJjbzAzek5XWWRlUE9iQ3N4eHA1VktUWW0vT0hQM0V0QUU2THFHN3JBdDZMSXRROXB1MGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzUyMjI2CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CjN3L0ZpWG9oUXBXdWlFODdoOTIxeEIvQVpIaWc2REVQSVF1VUU5bjV4U1IvZ2h5YVVGelcxZmFnMExmSGhKZmxaQ1JNOEVMTHg5eGI3V2RkbHh0dUJ3PT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.15/Egg.Run.app.tar.gz"
     }
   }
 }
