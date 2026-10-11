@@ -5,6 +5,17 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.14] — 2026-10-11
+
+- About this egg, round two: copy works (click a value and ⌘C, or the Copy
+  button that confirms with Copied), the password sits behind an eye, the
+  panel closes with an × and slides open and shut, and the toolbar button
+  lights up while it is open.
+- Packages: click "N installed" to see every package in the egg with its
+  version, filter as you type, and open the distro's page for any of them.
+- The panel's open/closed choice is kept with the egg, not in a hidden
+  preferences file.
+
 ## [0.6.13] — 2026-10-10
 
 - About this egg, finished: the Sign in section is always there, shows the
