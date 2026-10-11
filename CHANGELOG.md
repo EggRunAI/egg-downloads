@@ -5,6 +5,16 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.15] — 2026-10-11
+
+- Security in the egg's panel: the hub's vulnerability scan of the build you
+  are running (Clean, or how many findings and how serious), affected
+  packages marked in the package list with their CVE ids, a "Findings only"
+  switch, and a Rescan that checks what is installed right now, after your
+  own upgrades, against OSV.
+- Package rows show the name and the full version on two lines; nothing is
+  cut off any more, and the list only scrolls up and down.
+
 ## [0.6.14] — 2026-10-11
 
 - About this egg, round two: copy works (click a value and ⌘C, or the Copy
