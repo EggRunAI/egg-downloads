@@ -2,7 +2,8 @@
 
 ![Right-click an egg: Open, Shut Down, Remove](images/egg-context-menu.png)
 
-- **Double-click** an egg to download it, then to open it.
+- **Double-click** a faded egg to download it.
+- **Double-click** a downloaded egg to open it.
 - **Right-click** for Open, Shut Down, Remove.
 - **Remove** sends an egg to the Trash. Restore it from there, or download it fresh any time.
 
