@@ -5,6 +5,19 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.16] — 2026-10-11
+
+- Updates: Egg Run now checks every hour and whenever its window comes back
+  to the front, not only at launch and every four hours. Once a release is
+  downloaded the menu bar's "Check for updates" reads "Update to …", so you
+  see it even with the window closed. A check that could not reach the feed
+  says so instead of calling you up to date.
+- Opening Egg Run while it is already running brings the running window
+  forward instead of starting a second copy.
+- One verb for getting an egg: Download, everywhere, with "Unpacking…" once
+  the bytes are in.
+- Full screen: hiding the egg's panel gives its width back to the egg image.
+
 ## [0.6.15] — 2026-10-11
 
 - Security in the egg's panel: the hub's vulnerability scan of the build you
