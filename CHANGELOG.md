@@ -5,6 +5,14 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.19] — 2026-10-12
+
+- Usage data is tied to your account while you are signed in, so we can see
+  how Egg is actually used and, later, show you your own usage. Still event
+  names and numbers only, never files or anything you type. Settings →
+  Privacy says so, and turns it off.
+- The update check no longer runs twice at launch.
+
 ## [0.6.18] — 2026-10-12
 
 - Anonymous usage events now follow what you do on the desk: the welcome,
