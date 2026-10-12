@@ -4,7 +4,7 @@ An egg is a safe place to let an AI agent work: whatever it installs, downloads 
 
 ## Agents inside the egg
 
-Diamond Linux ships **Claude** and **Codex**, as desktop apps and as the **Claude CLI** and **Codex CLI** on the dock. Click one, sign in with your own account, and ask for something. See **Vibe coding in Diamond**.
+Sandbox Linux ships **Claude** and **Codex**, as desktop apps and as the **Claude CLI** and **Codex CLI** on the dock. Click one, sign in with your own account, and ask for something. See **Vibe coding in Sandbox**.
 
 ## Your Mac's agent, driving the egg
 

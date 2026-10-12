@@ -20,7 +20,7 @@
 | Control-Option-+ / - | Zoom the window in or out |
 | Control-Option-0 | Back to one pixel per pixel |
 | Control-⌘F | Full screen |
-| ⌘ alone | Reaches the egg as Super: the app overview in Diamond and Ubuntu |
+| ⌘ alone | Reaches the egg as Super: the app overview in Sandbox and Ubuntu |
 
 Everything else you type goes to the egg, with the Mac keys mapped to their Linux names: Option is Alt, ⌘ is Super.
 

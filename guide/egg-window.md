@@ -16,7 +16,7 @@ In the About panel: the account the egg signs you in with, with a copy button an
 
 ## Your keyboard and the egg
 
-While the egg's window is in front, what you type goes to the egg. ⌘ with a key stays with the Mac: ⌘V pastes into the egg, ⌘W closes the window, ⌘Q quits. ⌘ on its own reaches the egg as the Super key, which opens the app overview in Diamond and Ubuntu.
+While the egg's window is in front, what you type goes to the egg. ⌘ with a key stays with the Mac: ⌘V pastes into the egg, ⌘W closes the window, ⌘Q quits. ⌘ on its own reaches the egg as the Super key, which opens the app overview in Sandbox and Ubuntu.
 
 ## Size
 

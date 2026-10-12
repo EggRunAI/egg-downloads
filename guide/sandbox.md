@@ -1,8 +1,8 @@
-# Vibe coding in Diamond
+# Vibe coding in Sandbox
 
-![Diamond's dock: Chrome, Files, Console, Claude, Claude CLI, Codex, Codex CLI](images/diamond-dock.png)
+![Sandbox's dock: Chrome, Files, Console, Claude, Claude CLI, Codex, Codex CLI](images/sandbox-dock.png)
 
-Diamond Linux is the egg made for this. On its dock:
+Sandbox Linux is the egg made for this. On its dock:
 
 - **Claude** and **Codex** are the desktop apps. Click one, sign in with your own account.
 - **Claude CLI** and **Codex CLI** open a terminal with the tool already running, for when you want to work in a folder.

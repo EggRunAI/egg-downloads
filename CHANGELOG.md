@@ -5,6 +5,12 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.20] — 2026-10-12
+
+- Sandbox Linux: the house desktop, renamed from Diamond, with its own mark
+  and colours. It is the first icon on the desk; the welcome downloads it by
+  itself and opens it when it lands, no picking.
+
 ## [0.6.19] — 2026-10-12
 
 - Usage data is tied to your account while you are signed in, so we can see
