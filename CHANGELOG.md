@@ -5,6 +5,12 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.17] — 2026-10-12
+
+- Egg window: ⌘ shortcuts no longer leave a key held in the egg. ⌘C used to
+  type "ccc…" until another key was pressed; every ⌘ key now releases
+  cleanly.
+
 ## [0.6.16] — 2026-10-11
 
 - Updates: Egg Run now checks every hour and whenever its window comes back
