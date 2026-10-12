@@ -5,6 +5,14 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.18] — 2026-10-12
+
+- Anonymous usage events now follow what you do on the desk: the welcome,
+  signing in, downloading an egg, running it. Nothing you type is ever sent,
+  same as before.
+- The "Egg runner may be out of date" warning no longer appears on a fresh
+  install; the runner and the app are stamped together.
+
 ## [0.6.17] — 2026-10-12
 
 - Egg window: ⌘ shortcuts no longer leave a key held in the egg. ⌘C used to
