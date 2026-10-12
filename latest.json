@@ -1,13 +1,13 @@
 {
-  "version": "0.6.17",
-  "notes": "- Egg window: \u2318 shortcuts no longer leave a key held in the egg. \u2318C used to\n  type \"ccc\u2026\" until another key was pressed; every \u2318 key now releases\n  cleanly.",
-  "pub_date": "2026-10-12T04:03:14Z",
+  "version": "0.6.18",
+  "notes": "- Anonymous usage events now follow what you do on the desk: the welcome,\n  signing in, downloading an egg, running it. Nothing you type is ever sent,\n  same as before.\n- The \"Egg runner may be out of date\" warning no longer appears on a fresh\n  install; the runner and the app are stamped together.",
+  "pub_date": "2026-10-12T17:35:49Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTB2VDAvcGM5WTFMOW1qVHQzTkN5M2pmekZxSjlmQ0E1UVU1S21BelpRSGZLb251VFRXK0VLdFM2TnpkOUxIS0FuQUFxWUdjNlBBamFhdHRVbG1KbGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzc3NzA5CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CjdHVlNRTGpFeCtKWm1JNGNzMEsrYmRFdlR6d2JValpDb2FhK01iZks2KzNCWmtLY2pWNkFIV1lEbkw0cnFsVUF6aWIyUTdLWXlSODQrWS9QQ2Y5TEJnPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.17/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbStHUUsxaEVtcHdwZ1RDSmFJQmtGMzBXb09JUFpRTFhBaUQzU3BTbmFKM1lES1IraGNIRHh3NEV1N05PblFsRUV0dWdES1dqM05qNkZrK1dSR3FTbWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODI2NDU3CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CnRkWDBkdkQzMGZxSVNHTUpYK2NzUG9NRlhQM1NSQVNNdTJ5cE5aRFdGMEI3dVYxVDltYmxkM05WK3BsRzVGTlF5L3UyVEE3UUh5cjFma0xjdmZySER3PT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.18/Egg.Run.app.tar.gz"
     }
   }
 }
