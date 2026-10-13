@@ -5,6 +5,11 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.21] — 2026-10-12
+
+- Usage sessions measure the sitting, not the time the Mac sat idle, and a
+  sitting that ended by idle is recorded when it actually ended.
+
 ## [0.6.20] — 2026-10-12
 
 - Sandbox Linux: the house desktop, renamed from Diamond, with its own mark
