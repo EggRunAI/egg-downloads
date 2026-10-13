@@ -1,13 +1,13 @@
 {
-  "version": "0.6.19",
-  "notes": "- Usage data is tied to your account while you are signed in, so we can see\n  how Egg is actually used and, later, show you your own usage. Still event\n  names and numbers only, never files or anything you type. Settings \u2192\n  Privacy says so, and turns it off.\n- The update check no longer runs twice at launch.",
-  "pub_date": "2026-10-12T19:32:22Z",
+  "version": "0.6.20",
+  "notes": "- Sandbox Linux: the house desktop, renamed from Diamond, with its own mark\n  and colours. It is the first icon on the desk; the welcome downloads it by\n  itself and opens it when it lands, no picking.",
+  "pub_date": "2026-10-13T01:32:57Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXhrREtyUWt4cm5GQWNoWjU2L0JBY0ZrUldaa1BWU0tHdWQzVjhRb1BjV3g4UzZIb0dvcXFTb1VaZkJmZzNtMlB6UHM0NXhNU1pucTBpSGo0VThzT2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODMzNDQ5CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CnhYVXVpMittQ1ZaWXlkRkswOVkyQkk4ZnZTVUtCWkpYcWFHSkhKcnc5ZHkzZXlFenY5Mm5nSlhaek9zcFVWbllWLzhqcXhEdytxYXM0VzhwQkxnZkN3PT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.19/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTdqeGNpVk0zYUZSUS9HekxOUXVYS3lsMmE4ZHB1dHlsWW1QRytYQUw0MGE0a0ZqNWZQVE9pSVlxeEFrcmt2clhJTjNXbWdVQStHT3A1cHVVeXZ2elFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODU1MDg1CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CjdyWU5mZW9ieFpPSzFxQmVzZjQ3R1dxejlRSGZuTEU0N3hOcDNhbGs4cXdWZ1BEdEMvSndIeTh3V2YycFFuVTcxeThzZUNhajdCTVNhKzFXVXdTSEJnPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.20/Egg.Run.app.tar.gz"
     }
   }
 }
