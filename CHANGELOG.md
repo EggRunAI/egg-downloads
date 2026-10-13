@@ -5,6 +5,13 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.22] — 2026-10-13
+
+- Usage sessions are now decided the moment something happens, not when the
+  report is sent: every event knows its sitting, a sitting cut short by a
+  crash is closed at its last activity on the next launch, and sign-in
+  attribution is per sitting.
+
 ## [0.6.21] — 2026-10-12
 
 - Usage sessions measure the sitting, not the time the Mac sat idle, and a
