@@ -1,13 +1,13 @@
 {
-  "version": "0.6.20",
-  "notes": "- Sandbox Linux: the house desktop, renamed from Diamond, with its own mark\n  and colours. It is the first icon on the desk; the welcome downloads it by\n  itself and opens it when it lands, no picking.",
-  "pub_date": "2026-10-13T01:32:57Z",
+  "version": "0.6.21",
+  "notes": "- Usage sessions measure the sitting, not the time the Mac sat idle, and a\n  sitting that ended by idle is recorded when it actually ended.",
+  "pub_date": "2026-10-13T03:35:55Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTdqeGNpVk0zYUZSUS9HekxOUXVYS3lsMmE4ZHB1dHlsWW1QRytYQUw0MGE0a0ZqNWZQVE9pSVlxeEFrcmt2clhJTjNXbWdVQStHT3A1cHVVeXZ2elFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODU1MDg1CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CjdyWU5mZW9ieFpPSzFxQmVzZjQ3R1dxejlRSGZuTEU0N3hOcDNhbGs4cXdWZ1BEdEMvSndIeTh3V2YycFFuVTcxeThzZUNhajdCTVNhKzFXVXdTSEJnPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.20/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTNkQzN6andaZU9TTVZ6Q1ZEcmlNUVY5bnV2YjRPdWtIZVo5VElwMmt0c20ya1dCVm1HcHNKSXJFdEU2Sm45RnY3c09sRVMzNktoQkN4RGg1Vk1DZHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODYyNDU0CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmF4MW1RcnowZDFGVDIrcW1mdlhKQ1NINXVDenJUa2ZxdUVPUi9OTjlIZytCR0llUGhmczhBZkpBdHlwR3lGZFp4SEJRZ0tCN0VlREJsY0NvUnNka0R3PT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.21/Egg.Run.app.tar.gz"
     }
   }
 }
