@@ -1,13 +1,13 @@
 {
-  "version": "0.6.21",
-  "notes": "- Usage sessions measure the sitting, not the time the Mac sat idle, and a\n  sitting that ended by idle is recorded when it actually ended.",
-  "pub_date": "2026-10-13T03:35:55Z",
+  "version": "0.6.22",
+  "notes": "- Usage sessions are now decided the moment something happens, not when the\n  report is sent: every event knows its sitting, a sitting cut short by a\n  crash is closed at its last activity on the next launch, and sign-in\n  attribution is per sitting.",
+  "pub_date": "2026-10-13T15:12:57Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTNkQzN6andaZU9TTVZ6Q1ZEcmlNUVY5bnV2YjRPdWtIZVo5VElwMmt0c20ya1dCVm1HcHNKSXJFdEU2Sm45RnY3c09sRVMzNktoQkN4RGg1Vk1DZHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODYyNDU0CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmF4MW1RcnowZDFGVDIrcW1mdlhKQ1NINXVDenJUa2ZxdUVPUi9OTjlIZytCR0llUGhmczhBZkpBdHlwR3lGZFp4SEJRZ0tCN0VlREJsY0NvUnNka0R3PT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.21/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTVxek93VzBva2oxTGpsMWpSSDd6MDQwMHBNSEZIODM5bThhS2tFT2NpS1NRRWRGYzlLd1RNZ01KNGhMMXNCbTRTOFRIcWJkOUVZL1NiaFRTRjBPUmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA0MjcyCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cm01WHJFSzM0NkQxR09SOFE3UGRUNTFid2cwS1g1RktKd1VkMHZIZ1Z3UkZPRkdBQ0JXSW43dlVKZjE3UTBvNUxIaTFkUVhmUDUwcGtUSTJ0TWlpK0FRPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.22/Egg.Run.app.tar.gz"
     }
   }
 }
