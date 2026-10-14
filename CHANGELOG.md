@@ -5,6 +5,11 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.24] — 2026-10-14
+
+- WebGL pages in Chrome inside Sandbox Linux drew as torn strips in 0.6.23;
+  they render correctly now.
+
 ## [0.6.23] — 2026-10-14
 
 - Chrome inside Sandbox Linux and Chromium inside Ubuntu Desktop now draw
