@@ -1,13 +1,13 @@
 {
-  "version": "0.6.23",
-  "notes": "- Chrome inside Sandbox Linux and Chromium inside Ubuntu Desktop now draw\n  with the egg's GPU. They used to fall back to software and paint every\n  frame on the CPU, which made the whole egg feel slow; canvas, compositing,\n  WebGL, WebGPU and video decode are hardware accelerated now. Download the\n  eggs again to get the rebuilt snapshots.",
-  "pub_date": "2026-10-14T01:46:17Z",
+  "version": "0.6.24",
+  "notes": "- WebGL pages in Chrome inside Sandbox Linux drew as torn strips in 0.6.23;\n  they render correctly now.",
+  "pub_date": "2026-10-14T02:57:24Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbThaaStvcUpmU0hJY0poNGdUNDVhOXdDVXowOWh2R012WnBMSXJTY3V0dXRtMis1OW9paFUwRng0ZTRjNUZFQnAvVy8vQVc4OTlTOE1UYWhuMEVyZ0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTQyMjk1CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmJpY2NSZTBHMUI1dW14ODNQVXM1N0hwVGdYck53czRQWDcyM01UTW52bG9HWHV3ekxiOFVkN3ZMMEJDb3NpOEJRaHlaTDhrZUpZSGtlMlR6QzBZN0FBPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.23/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTZXR284V0xpZktwMGgvNFQrRU8wK3NqclQvMmVncmZPNEk0QlZZY3U4dFc4cGlheWFxQ21hK3FsVTQ5cEpFRTlFZFpFcTZZL1hIQ1BuNXZTSDU4VXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTQ2NTY2CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkNCUG5hMTBvRjBBQXRRN1U4azVxU0c2Y0xzTzdnVzBJakhRaEZVeWJ5SjA5bGlvNEsvcFdFdFVsY0JNeUtqeDF2ZWNkOVdudTYxdUFSZlAzQy92ckNnPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.24/Egg.Run.app.tar.gz"
     }
   }
 }
