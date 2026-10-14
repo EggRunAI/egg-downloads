@@ -1,13 +1,13 @@
 {
-  "version": "0.6.22",
-  "notes": "- Usage sessions are now decided the moment something happens, not when the\n  report is sent: every event knows its sitting, a sitting cut short by a\n  crash is closed at its last activity on the next launch, and sign-in\n  attribution is per sitting.",
-  "pub_date": "2026-10-13T15:12:57Z",
+  "version": "0.6.23",
+  "notes": "- Chrome inside Sandbox Linux and Chromium inside Ubuntu Desktop now draw\n  with the egg's GPU. They used to fall back to software and paint every\n  frame on the CPU, which made the whole egg feel slow; canvas, compositing,\n  WebGL, WebGPU and video decode are hardware accelerated now. Download the\n  eggs again to get the rebuilt snapshots.",
+  "pub_date": "2026-10-14T01:46:17Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTVxek93VzBva2oxTGpsMWpSSDd6MDQwMHBNSEZIODM5bThhS2tFT2NpS1NRRWRGYzlLd1RNZ01KNGhMMXNCbTRTOFRIcWJkOUVZL1NiaFRTRjBPUmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTA0MjcyCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cm01WHJFSzM0NkQxR09SOFE3UGRUNTFid2cwS1g1RktKd1VkMHZIZ1Z3UkZPRkdBQ0JXSW43dlVKZjE3UTBvNUxIaTFkUVhmUDUwcGtUSTJ0TWlpK0FRPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.22/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbThaaStvcUpmU0hJY0poNGdUNDVhOXdDVXowOWh2R012WnBMSXJTY3V0dXRtMis1OW9paFUwRng0ZTRjNUZFQnAvVy8vQVc4OTlTOE1UYWhuMEVyZ0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTQyMjk1CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmJpY2NSZTBHMUI1dW14ODNQVXM1N0hwVGdYck53czRQWDcyM01UTW52bG9HWHV3ekxiOFVkN3ZMMEJDb3NpOEJRaHlaTDhrZUpZSGtlMlR6QzBZN0FBPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.23/Egg.Run.app.tar.gz"
     }
   }
 }
