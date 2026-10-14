@@ -5,6 +5,14 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.23] — 2026-10-14
+
+- Chrome inside Sandbox Linux and Chromium inside Ubuntu Desktop now draw
+  with the egg's GPU. They used to fall back to software and paint every
+  frame on the CPU, which made the whole egg feel slow; canvas, compositing,
+  WebGL, WebGPU and video decode are hardware accelerated now. Download the
+  eggs again to get the rebuilt snapshots.
+
 ## [0.6.22] — 2026-10-13
 
 - Usage sessions are now decided the moment something happens, not when the
