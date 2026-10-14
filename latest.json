@@ -1,13 +1,13 @@
 {
-  "version": "0.6.24",
-  "notes": "- WebGL pages in Chrome inside Sandbox Linux drew as torn strips in 0.6.23;\n  they render correctly now.",
-  "pub_date": "2026-10-14T02:57:24Z",
+  "version": "0.6.25",
+  "notes": "Egg v0.6.25",
+  "pub_date": "2026-10-14T22:33:02Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTZXR284V0xpZktwMGgvNFQrRU8wK3NqclQvMmVncmZPNEk0QlZZY3U4dFc4cGlheWFxQ21hK3FsVTQ5cEpFRTlFZFpFcTZZL1hIQ1BuNXZTSDU4VXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTQ2NTY2CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkNCUG5hMTBvRjBBQXRRN1U4azVxU0c2Y0xzTzdnVzBJakhRaEZVeWJ5SjA5bGlvNEsvcFdFdFVsY0JNeUtqeDF2ZWNkOVdudTYxdUFSZlAzQy92ckNnPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.24/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXlvcXRSQnpyeU1jWHBjUk9LZjhFTEo4L1VjZE1EOUFDME8zRkQxNTB2ZWEvRE5VUFNQdWlSRk11aTdjbnZ2ZG1VNU80SlBvbDBCaXZRY2l4RW9PVGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDE3MDkyCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CndPZjhsbEN3bFVjYlg5dXI2b0NHUDBISHlwcW1iWlJDWHZrNFVGcDZXYk5IcTdpeUtmOHlqeFFEOHNra3l1QTI2aUxsd0FPYllRT2JJSEtqcjJtNkNnPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.25/Egg.Run.app.tar.gz"
     }
   }
 }
