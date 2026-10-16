@@ -1,13 +1,13 @@
 {
-  "version": "0.6.30",
-  "notes": "- Direct3D 12 inside Windows 11 eggs: three rendering faults fixed. Anti-aliased\n  scenes were never resolved (frames came out washed out or black), texture\n  arrays and cube maps uploaded layer by layer lost or shifted faces, and small\n  textures with 2- or 8-byte texels uploaded shifted or empty. This is the\n  groundwork for WebGPU in Windows eggs, which still waits on the signed guest\n  display driver.\n- Windows 11 eggs can be installed unattended from an answer file; the gate\n  that builds and verifies them runs the whole install to a signed-in desktop at\n  1080p 2x in under ten minutes.",
-  "pub_date": "2026-10-16T20:03:14Z",
+  "version": "0.6.31",
+  "notes": "- Direct3D 12 inside Windows 11 eggs: textures created from images reached the\n  GPU in the wrong order, so scenes that load their materials from pictures\n  drew with another picture's pixels or none at all (a three.js car and road\n  were missing). Work handed between a program's Direct3D 11 and Direct3D 12\n  devices is now run in the order the program asked for. Groundwork for WebGPU\n  in Windows eggs, which still waits on the signed guest display driver.",
+  "pub_date": "2026-10-16T22:49:11Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXp5QW5aT3MvdWNDSk83eTR6bTlobFBtSHVMaWNQMnNrQVlpMmFLdUI5Z1R0K2NKZlNxQUFXaThkU0szRnFqMTRKVUFVbTBIVGpReHlvYUZIc0dWbmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTgwOTAxCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CkFYdEhTbmQzanFsekduNjhwV0cwZS9KR0NKQkNrMWF5NjR0ZGh3MytCWWQzYkU1cHEyK2hxUzFCTXpiSFk0eTVjcjl2ZFNHamFIVFAzMUF4S3A0a0NnPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.30/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTRteUdKM0xIZmI1RC9vWnM5ZFBBZEJ1ZlpqL0xqNjVtSWw0VWF6WFR4U1RFejV5QTZaZVkxNGJGaXJuNVBhTG1yZjM5YXRvaWZHTDFST3laYXBjR1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTkwODI5CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6ClJwUk02UzNkRjU4SEVWbmFDRy9ZbXpwcWkraUNoR2xpQzhIejBrVzc5UjdTc0JxSk9md0dYNmlpUkhGZjlYcWZLNWIwSTQ5b3M4YWRCRENxVThvaUFBPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.31/Egg.Run.app.tar.gz"
     }
   }
 }
