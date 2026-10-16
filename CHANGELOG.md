@@ -5,6 +5,15 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.31] — 2026-10-16
+
+- Direct3D 12 inside Windows 11 eggs: textures created from images reached the
+  GPU in the wrong order, so scenes that load their materials from pictures
+  drew with another picture's pixels or none at all (a three.js car and road
+  were missing). Work handed between a program's Direct3D 11 and Direct3D 12
+  devices is now run in the order the program asked for. Groundwork for WebGPU
+  in Windows eggs, which still waits on the signed guest display driver.
+
 ## [0.6.30] — 2026-10-16
 
 - Direct3D 12 inside Windows 11 eggs: three rendering faults fixed. Anti-aliased
