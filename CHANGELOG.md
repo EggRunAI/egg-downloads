@@ -5,6 +5,18 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.30] — 2026-10-16
+
+- Direct3D 12 inside Windows 11 eggs: three rendering faults fixed. Anti-aliased
+  scenes were never resolved (frames came out washed out or black), texture
+  arrays and cube maps uploaded layer by layer lost or shifted faces, and small
+  textures with 2- or 8-byte texels uploaded shifted or empty. This is the
+  groundwork for WebGPU in Windows eggs, which still waits on the signed guest
+  display driver.
+- Windows 11 eggs can be installed unattended from an answer file; the gate
+  that builds and verifies them runs the whole install to a signed-in desktop at
+  1080p 2x in under ten minutes.
+
 ## [0.6.24] — 2026-10-14
 
 - WebGL pages in Chrome inside Sandbox Linux drew as torn strips in 0.6.23;
