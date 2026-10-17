@@ -5,6 +5,20 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.32] — 2026-10-17
+
+- Vulkan games inside Linux eggs: the first native Vulkan game (Godot 4.7)
+  found five faults in the host. The desktop could freeze the moment a game
+  read back from the GPU; a game that writes its vertex and uniform data in
+  place drew panels but no textures or text; the host could crash when a game
+  changed its window size into full screen; every fence poll by the game
+  stalled the whole desktop; and in full screen the picture stopped updating
+  while the game kept running. All five are fixed. Godot's editor and its
+  third-person shooter demo now run windowed and full screen.
+- Godot projects on a 4-CPU egg: Godot's own loader can deadlock at a fixed
+  percentage while loading a level. Raise `threading/worker_pool/max_threads`
+  in the project, or give the egg more CPUs.
+
 ## [0.6.31] — 2026-10-16
 
 - Direct3D 12 inside Windows 11 eggs: textures created from images reached the
