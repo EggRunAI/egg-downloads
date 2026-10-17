@@ -5,6 +5,21 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.33] — 2026-10-17
+
+- The egg window draws each frame with one copy instead of three, and a
+  full-screen game whose picture the Linux desktop scans out directly is
+  shown straight from the game's own buffer. A 2560x1920 game at 120 frames
+  per second costs about a quarter of a processor core less than in 0.6.32,
+  windowed and full screen alike.
+- A Windows egg could crash at boot when its firmware framebuffer changed
+  size with the new window path; fixed before it shipped, and the Windows
+  display probe passes on this build.
+- Two of the Godot faults fixed in 0.6.32 are now covered by tests that run
+  before every release: a unit test for the GPU queue thread's locking, and a
+  native Vulkan game probe (a Godot 4.7 project, windowed then full screen,
+  with GPU readbacks) in the Linux regression gate.
+
 ## [0.6.32] — 2026-10-17
 
 - Vulkan games inside Linux eggs: the first native Vulkan game (Godot 4.7)
