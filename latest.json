@@ -1,13 +1,13 @@
 {
-  "version": "0.6.31",
-  "notes": "- Direct3D 12 inside Windows 11 eggs: textures created from images reached the\n  GPU in the wrong order, so scenes that load their materials from pictures\n  drew with another picture's pixels or none at all (a three.js car and road\n  were missing). Work handed between a program's Direct3D 11 and Direct3D 12\n  devices is now run in the order the program asked for. Groundwork for WebGPU\n  in Windows eggs, which still waits on the signed guest display driver.",
-  "pub_date": "2026-10-16T22:49:11Z",
+  "version": "0.6.32",
+  "notes": "- Vulkan games inside Linux eggs: the first native Vulkan game (Godot 4.7)\n  found five faults in the host. The desktop could freeze the moment a game\n  read back from the GPU; a game that writes its vertex and uniform data in\n  place drew panels but no textures or text; the host could crash when a game\n  changed its window size into full screen; every fence poll by the game\n  stalled the whole desktop; and in full screen the picture stopped updating\n  while the game kept running. All five are fixed. Godot's editor and its\n  third-person shooter demo now run windowed and full screen.\n- Godot projects on a 4-CPU egg: Godot's own loader can deadlock at a fixed\n  percentage while loading a level. Raise `threading/worker_pool/max_threads`\n  in the project, or give the egg more CPUs.",
+  "pub_date": "2026-10-17T11:41:49Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTRteUdKM0xIZmI1RC9vWnM5ZFBBZEJ1ZlpqL0xqNjVtSWw0VWF6WFR4U1RFejV5QTZaZVkxNGJGaXJuNVBhTG1yZjM5YXRvaWZHTDFST3laYXBjR1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTkwODI5CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6ClJwUk02UzNkRjU4SEVWbmFDRy9ZbXpwcWkraUNoR2xpQzhIejBrVzc5UjdTc0JxSk9md0dYNmlpUkhGZjlYcWZLNWIwSTQ5b3M4YWRCRENxVThvaUFBPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.31/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTgzKzlMSHB1NGQvbWdicFZNaDJoK3o3MmQ1d1d5YTAzcGpSeTZwOHpJQk80QnhVcElsMWtyeC9DdXhhR3R0Tk5pMEQ3UFVaajhlV1M1M2NNM05hMEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjM3MjMwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmE4dDE1aVdkSHJoQldQVHJNZXlpN3BtWDcvd25PMGJncmI2eERaVEF1KzliRS9GK2o5NCtIeWZGYVNNaG10RVJrQlRXZDRNUVNkN3JzMG9veGN0TkR3PT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.32/Egg.Run.app.tar.gz"
     }
   }
 }
