@@ -1,0 +1,10 @@
+# Text files normalised; images and the (never-committed) build artifacts are binary.
+* text=auto eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.png binary
+*.pkg binary
+*.dmg binary
+*.tar.gz binary
+*.sig binary

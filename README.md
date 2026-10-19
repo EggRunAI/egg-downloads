@@ -1,0 +1,94 @@
+<p align="center">
+  <img src="logo.png" alt="Egg Run" width="128" />
+</p>
+
+<h1 align="center">Egg Run</h1>
+
+<p align="center">
+  <b>Run Linux VMs on your Mac in seconds.</b><br/>
+  Hardware-isolated. No daemon. No shared kernel.
+</p>
+
+<p align="center">
+  <i>Isolated inside-out just like an egg 🥚 for the finest safeguards.</i>
+</p>
+
+<p align="center">
+  <img src="app-demo.png" alt="The Egg desk: Ubuntu, Ubuntu Server and Alpine starters, and a running Ubuntu 26.04 egg with GPU" width="900" />
+</p>
+
+---
+
+## What is Egg Run?
+
+Egg Run is the macOS desktop app for **EggRun** — a faster, safer way to run Linux
+workloads on Apple Silicon. Each VM (an *"egg"*) is a real **hardware-isolated**
+machine. Double-click a computer on the desk — it installs like an app, then runs.
+
+It's built on the Camouflage Network's **Yolk** hypervisor — and Apple **Hypervisor.framework**, entirely in userspace, **no background daemon, no sudo** —
+so eggs boot in seconds and run lean, <b><i>ultra fast</i></b> like a real machine with a serious punch 👊.
+
+This repository only holds the downloads. Everything else — what Egg is, the egg
+catalog, docs and pricing — lives at **[eggrun.ai](https://eggrun.ai)**.
+
+## Downloads
+
+### macOS (Apple Silicon)
+
+| File | Description |
+|------|-------------|
+| [`Egg Run.pkg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.pkg) | **Installer (recommended)** — double-click, installs to Applications |
+| [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.dmg) | Disk image — drag to Applications |
+| [`Egg Run.app.tar.gz`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.app.tar.gz) | App bundle (what the in-app updater installs) |
+
+> Requires macOS 15 or later, Apple Silicon. The `.pkg` and `.dmg` are both
+> signed and notarized; the `.pkg` is recommended since it installs to
+> **/Applications** for you.
+
+## Install
+
+### One-liner (recommended)
+
+```bash
+curl -L "https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.pkg" -o ~/Downloads/Egg\ Run.pkg && open ~/Downloads/Egg\ Run.pkg
+```
+
+### Manual
+
+**Installer (.pkg) — recommended**
+
+1. Download [`Egg Run.pkg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.pkg)
+2. Double-click it and follow the installer — Egg Run is placed in Applications automatically
+3. Launch Egg Run from Applications
+
+**Disk image (.dmg) — alternative**
+
+1. Download [`Egg Run.dmg`](https://github.com/EggRunAI/egg-downloads/releases/latest/download/Egg.Run.dmg)
+2. Open the disk image and drag **Egg Run** to Applications
+3. Launch Egg Run from Applications
+
+## Links
+
+- Website: [eggrun.ai](https://eggrun.ai)
+- Docs: [eggrun.ai/docs](https://eggrun.ai/docs)
+- Releases: [every version, with notes](https://github.com/EggRunAI/egg-downloads/releases)
+
+## License
+
+Copyright © 2025–2026 Camouflage Networks, Inc. All rights reserved.
+
+## Notices
+
+Apple, Apple Silicon, macOS, and Hypervisor.framework are trademarks of Apple Inc.,
+registered in the U.S. and other countries and regions. Egg Run is built on Apple
+Hypervisor.framework but is **not affiliated with, endorsed by, or sponsored by
+Apple Inc.** All other trademarks are the property of their respective owners.
+
+## desk.json
+
+The eggs a fresh desk offers in the desktop app, in order. The app reads this file
+from `main` at launch and every few hours, keeps the last good copy, and falls back
+to its built-in list only when it has never fetched one. `min_app` hides an entry
+from apps older than that version; it does not force an update (that is `floor.json`).
+Edit, commit, push: live within a minute, no release needed. Title, icon and class
+of each egg come from its hub listing.

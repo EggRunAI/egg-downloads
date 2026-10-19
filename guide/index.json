@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "id": "start-here",
+      "title": "Start here",
+      "file": "start-here.md"
+    },
+    {
+      "id": "sandbox",
+      "title": "Vibe coding in Sandbox",
+      "file": "sandbox.md"
+    },
+    {
+      "id": "desk",
+      "title": "Your desk",
+      "file": "desk.md"
+    },
+    {
+      "id": "egg-window",
+      "title": "The egg window",
+      "file": "egg-window.md"
+    },
+    {
+      "id": "menu-bar",
+      "title": "The egg in the menu bar",
+      "file": "menu-bar.md"
+    },
+    {
+      "id": "agents",
+      "title": "Agents and the egg",
+      "file": "agents.md"
+    },
+    {
+      "id": "shortcuts",
+      "title": "Shortcuts and gestures",
+      "file": "shortcuts.md"
+    }
+  ]
+}
