@@ -5,7 +5,7 @@
     { "ref": "egg/ubuntu-26-desktop",   "min_app": "0.6.0" },
     { "ref": "egg/ubuntu-26",           "min_app": "0.6.0" },
     { "ref": "egg/alpine",              "min_app": "0.6.0" },
-    { "ref": "egg/arch",                "min_app": "0.6.38" },
-    { "ref": "egg/omarchy",             "min_app": "0.6.38" }
+    { "ref": "egg/arch",                "min_app": "0.6.37" },
+    { "ref": "egg/omarchy",             "min_app": "0.6.37" }
   ]
 }
