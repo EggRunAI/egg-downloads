@@ -1,13 +1,13 @@
 {
-  "version": "0.6.44",
-  "notes": "Egg v0.6.44",
-  "pub_date": "2026-10-27T00:40:53Z",
+  "version": "0.6.45",
+  "notes": "- Suspend. The Power menu and the close button of a running egg's window now\n  offer Suspend next to Shut down and Forced Power Off: the machine is saved\n  as it is and stops, and the next Start resumes it there in seconds. A\n  suspended egg carries a badge on the desk; \"Start fresh\" boots the disk\n  instead. The close button asks before anything stops; the yellow light only\n  hides the window.\n- Resuming a busy machine is reliable. A snapshot taken mid-frame could fail to\n  restore on about one attempt in three, and 3D models could come back black:\n  an interrupt caught in flight and textures the host could not read back are\n  both carried across now.\n- Known limitation: resuming a suspended Ubuntu Desktop egg while Firefox has\n  a WebGL or WebGPU page open crashes Firefox; the tab reloads. Chrome on\n  Sandbox resumes with the page intact.",
+  "pub_date": "2026-10-27T20:37:57Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbXh2SGZCdDMyMUdIUHR3QWRZcVd5SmVuTWZhTDlUSDB0Y2NnM0ZheWh2cWVoRXNwRytpQi80bEV5a3IrYzBHQkpGaVFOeDE2QU56S2FzVXROMlU3TGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDYxNTc0CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Clo4NFZENGhta3VWWU91RzFSbnhyOXRZOHRYTVdDQVo4UzlkcWcrN3AwZjhaT1F3WjNWb2VJci9sNmhPNm1tbERSY0VKMy9LMWEyb0QvMGtRdERvc0RBPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.44/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTN2Q0h1RWRJaExOK0haTW9nYm16VWJVazQzYWxYdzZxTm8rYTk2c3ZkeW5IVHFWdElnQlM0elRQdTN5S3dLTG00QVlmM2RpbC8rYkMyRGpka2d3T3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTMzMzk0CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CmZteWhISG5tSSs2TmlUdGFHSFZnVGtySGRyZFJQV281OFFzanV3ZkFGdXNqdUs2NVg2L2VpTkdYL01keVlOcGlOMno3eGJINVRFZWFKV2Jnb0NkekRBPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.45/Egg.Run.app.tar.gz"
     }
   }
 }
