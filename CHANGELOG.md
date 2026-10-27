@@ -5,6 +5,22 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.45] — 2026-10-27
+
+- Suspend. The Power menu and the close button of a running egg's window now
+  offer Suspend next to Shut down and Forced Power Off: the machine is saved
+  as it is and stops, and the next Start resumes it there in seconds. A
+  suspended egg carries a badge on the desk; "Start fresh" boots the disk
+  instead. The close button asks before anything stops; the yellow light only
+  hides the window.
+- Resuming a busy machine is reliable. A snapshot taken mid-frame could fail to
+  restore on about one attempt in three, and 3D models could come back black:
+  an interrupt caught in flight and textures the host could not read back are
+  both carried across now.
+- Known limitation: resuming a suspended Ubuntu Desktop egg while Firefox has
+  a WebGL or WebGPU page open crashes Firefox; the tab reloads. Chrome on
+  Sandbox resumes with the page intact.
+
 ## [0.6.34] — 2026-10-17
 
 - GPU readbacks in Linux eggs arrive in time. A game that read back a frame
