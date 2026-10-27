@@ -5,6 +5,20 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.46] — 2026-10-27
+
+- Suspend from the egg window works as it should. The close button asks once;
+  after Suspend the window shows a progress bar while the machine is saved and
+  closes by itself. Closing again while it saves, or while a shutdown is in
+  progress, no longer brings the question back and never pulls the power.
+- A suspend that is cut short leaves nothing behind: the desk only points the
+  next Start at a save that finished, and a half-written save is cleaned up
+  on the next run.
+- An egg restored from a snapshot and then shut down boots its disk on the
+  next Start, instead of going back to that snapshot every time.
+- A rare hang while saving a machine (the save waited on a device another part
+  of the egg was holding) is fixed.
+
 ## [0.6.45] — 2026-10-27
 
 - Suspend. The Power menu and the close button of a running egg's window now
