@@ -5,6 +5,12 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.47] — 2026-10-27
+
+- The desk no longer prints "Download" under a starter icon. The badge in the corner already says the egg is not on this Mac yet.
+- A starter is matched to its installed egg by where it was pulled from, not only by name. A pulled egg named with a suffix no longer leaves the starter icon beside it.
+- Release builds no longer rebuild the graphics layer when nothing changed.
+
 ## [0.6.46] — 2026-10-27
 
 - Suspend from the egg window works as it should. The close button asks once;
