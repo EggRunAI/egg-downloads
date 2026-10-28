@@ -1,13 +1,13 @@
 {
-  "version": "0.6.47",
-  "notes": "- The desk no longer prints \"Download\" under a starter icon. The badge in the corner already says the egg is not on this Mac yet.\n- A starter is matched to its installed egg by where it was pulled from, not only by name. A pulled egg named with a suffix no longer leaves the starter icon beside it.\n- Release builds no longer rebuild the graphics layer when nothing changed.",
-  "pub_date": "2026-10-28T00:22:31Z",
+  "version": "0.6.48",
+  "notes": "- An egg window can now be dragged down to half its pixel-exact size, so several eggs fit side by side on a laptop screen. The display scales to the window.\n- Release builds print a table at the end: each step, how long it took, and whether it was built or skipped.",
+  "pub_date": "2026-10-28T13:22:20Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbThlUEJONStvR1ZBVW1UbGdGZnA5YmRhbFR1Z1U2ZTJvRFowT0dPaUVnQy8yQ3UyelZPaVU0MzVvazlaMEhYTHo3cFJ0YUxiM3YvNVpxVlhvb01JY3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTQ2ODU3CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cmh5V0UrWjNJWEhJRldZNFVSUzJkK1hZeWhvcGxjRnBYV3A3d2hLY09aYWJxL2JvT1ZkU3hNQ0xXS3NaUjFaYjdqRnB4cjZLUlM2Y04vYkoyUzBZZ0RnPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.47/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTkrZ2x5L1lZZHJqWWJTdmVLNGZkVGVSZFFNdE9RbEl2N0RuQXBEZXJNSGF6dUlrYzhzeW9kUW9Rc0ZkU29ja2hlN3djYjBXa3dTeFRoZW9lQWdJQ1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTkzNjU1CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6ClhaMzZremsvc1RwcDZNb25ZV2p2MlBYZzJNZ0lUSkR4Q2FZcHlQN1cvbnRnVGhoVTh1dXQwT1Fqam10eStCajNVakpFaXozb1h3TU92a3BDYnFqQ0JRPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.48/Egg.Run.app.tar.gz"
     }
   }
 }
