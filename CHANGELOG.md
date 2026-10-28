@@ -5,6 +5,11 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.48] — 2026-10-28
+
+- An egg window can now be dragged down to half its pixel-exact size, so several eggs fit side by side on a laptop screen. The display scales to the window.
+- Release builds print a table at the end: each step, how long it took, and whether it was built or skipped.
+
 ## [0.6.47] — 2026-10-27
 
 - The desk no longer prints "Download" under a starter icon. The badge in the corner already says the egg is not on this Mac yet.
