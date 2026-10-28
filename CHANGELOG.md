@@ -5,6 +5,10 @@ Newest first. Dates are release dates.
 
 Every version is a [GitHub Release](https://github.com/EggRunAI/egg-downloads/releases); [`latest.json`](latest.json) is what the app's updater reads.
 
+## [0.6.49] — 2026-10-28
+
+- A new egg window opens beside the Workspace window when the screen has room, otherwise cascaded off it, so neither window can hide the other completely when it comes to the front.
+
 ## [0.6.48] — 2026-10-28
 
 - An egg window can now be dragged down to half its pixel-exact size, so several eggs fit side by side on a laptop screen. The display scales to the window.
