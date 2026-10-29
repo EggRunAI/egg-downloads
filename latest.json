@@ -1,13 +1,13 @@
 {
-  "version": "0.6.49",
-  "notes": "- A new egg window opens beside the Workspace window when the screen has room, otherwise cascaded off it, so neither window can hide the other completely when it comes to the front.",
-  "pub_date": "2026-10-28T15:30:19Z",
+  "version": "0.6.50",
+  "notes": "Egg v0.6.50",
+  "pub_date": "2026-10-29T19:06:41Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbThzTXFRRXNaVmhzaXk4Ymx0S0pLRDFQbjBvemR4bnZVQlNpSDBBcmU0Z0huaERCMnZHQ2ZQaXg2WkRKTTcxMVVkU1hmZ0g1SGhmV2NMdmR2aDhGdVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjAxMzM3CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CnB4UWRqaVNOZHM3clhheTJ1aUtsWHozcDEveWptYVp3L0YwaE9VbEtMejR1M0pCNGl3QWFiOTJzNXA2U010V1VDZUFFK3BZTlRiY1pyR240MDBqb0NBPT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.49/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbStEQ2wrVEppWEhHcUdESzF0SDBPYUZKVmdrMDk1am9oaDdPekVseUo3d3RYWVlNczhmR2RWZTNtVUlYbHNVN0R2K2hvVWNLb2VTenNxZktZRFAzYWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzAwNzAwCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6Cno3TWNZdjcxclViTy9EbTU2TkR0SUtPT0s0TEVpbWJvTFN0bW9oVmh1RG9OQXFzMEo2dGVCQnVENU94SEtTQVNaQVplZzRBaGNtaE5nS3pVSTY3VkF3PT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.50/Egg.Run.app.tar.gz"
     }
   }
 }
