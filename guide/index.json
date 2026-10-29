@@ -1,40 +1,13 @@
 {
   "version": 1,
   "pages": [
-    {
-      "id": "start-here",
-      "title": "Start here",
-      "file": "start-here.md"
-    },
-    {
-      "id": "sandbox",
-      "title": "Vibe coding in Sandbox",
-      "file": "sandbox.md"
-    },
-    {
-      "id": "desk",
-      "title": "Your desk",
-      "file": "desk.md"
-    },
-    {
-      "id": "egg-window",
-      "title": "The egg window",
-      "file": "egg-window.md"
-    },
-    {
-      "id": "menu-bar",
-      "title": "The egg in the menu bar",
-      "file": "menu-bar.md"
-    },
-    {
-      "id": "agents",
-      "title": "Agents and the egg",
-      "file": "agents.md"
-    },
-    {
-      "id": "shortcuts",
-      "title": "Shortcuts and gestures",
-      "file": "shortcuts.md"
-    }
+    { "id": "start-here", "title": "Start here", "file": "start-here.md", "group": "Use Egg", "blurb": "Download an egg, open it, make something", "week": 1 },
+    { "id": "desk", "title": "Your desk", "file": "desk.md", "group": "Use Egg", "blurb": "Open, shut down, remove and restore eggs on the desk", "week": 1 },
+    { "id": "egg-window", "title": "The egg window", "file": "egg-window.md", "group": "Use Egg", "blurb": "The toolbar, the About panel, your keyboard and the window size", "week": 1 },
+    { "id": "menu-bar", "title": "The egg in the menu bar", "file": "menu-bar.md", "group": "Use Egg", "blurb": "Pause, restart and troubleshoot eggs with the window closed", "week": 1 },
+    { "id": "shortcuts", "title": "Shortcuts and gestures", "file": "shortcuts.md", "group": "Use Egg", "blurb": "Every key and trackpad gesture on the desk and in an egg", "week": 1 },
+    { "id": "sandbox", "title": "Vibe coding in Sandbox", "file": "sandbox.md", "group": "Use Egg", "blurb": "Build your first project with Claude or Codex inside Sandbox Linux", "week": 1 },
+    { "id": "command-line", "title": "The command line", "file": "command-line.md", "group": "Use Egg", "blurb": "Run, list, stop and remove eggs from a terminal", "week": 1 },
+    { "id": "agents", "title": "Agents and the egg", "file": "agents.md", "group": "Automate Egg", "blurb": "Let an AI agent work inside a machine you can throw away", "week": 1 }
   ]
 }

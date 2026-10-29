@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "pages": [
+    { "id": "snapshots", "title": "Snapshots", "file": "snapshots.md", "group": "Use Egg", "blurb": "Save the whole running machine and go back to that instant", "week": 6 },
+    { "id": "ports-and-folders", "title": "Ports and folders", "file": "ports-and-folders.md", "group": "Use Egg", "blurb": "Open the ports you mean to and share a Mac folder with an egg", "week": 18 },
+    { "id": "gpu", "title": "GPU", "file": "gpu.md", "group": "Use Egg", "blurb": "Turn the GPU on for a machine and check the guest sees it", "week": 16 },
+    { "id": "local-llm", "title": "Local LLM", "file": "local-llm.md", "group": "Use Egg", "blurb": "Run a model inside an egg on your Mac's GPU, sized to fit", "week": 16 },
+    { "id": "toss", "title": "Clone and toss", "file": "toss.md", "group": "Use Egg", "blurb": "Clone a machine for a second one, toss a broken one", "week": 10 },
+    { "id": "claude", "title": "Claude Code", "file": "claude.md", "group": "Automate Egg", "blurb": "Attach Claude Code to an egg with one registration", "week": 7 },
+    { "id": "codex", "title": "Codex", "file": "codex.md", "group": "Automate Egg", "blurb": "Point Codex, or any MCP client, at the same egg", "week": 9 },
+    { "id": "agent-tools", "title": "The tools", "file": "agent-tools.md", "group": "Automate Egg", "blurb": "Pick the right tool, exec, screenshot or snapshot, for each step", "week": 7 },
+    { "id": "agent-retries", "title": "Retry with snapshots", "file": "agent-retries.md", "group": "Automate Egg", "blurb": "Snapshot, try, verify, restore: make an agent's failures cheap", "week": 7 },
+    { "id": "eggfile", "title": "Eggfile", "file": "eggfile.md", "group": "Automate Egg", "blurb": "Describe a whole machine in one file, build it and run it", "week": 30 },
+    { "id": "publish", "title": "Publish", "file": "publish.md", "group": "Automate Egg", "blurb": "Ship your machine as a signed, versioned egg others run", "week": 30 }
+  ]
+}
