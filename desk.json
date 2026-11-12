@@ -7,6 +7,7 @@
     { "ref": "egg/alpine",              "min_app": "0.6.0" },
     { "ref": "egg/arch",                "min_app": "0.6.37" },
     { "ref": "egg/omarchy",             "min_app": "0.6.37" },
-    { "ref": "egg/debian-13",           "min_app": "0.6.37" }
+    { "ref": "egg/debian-13",           "min_app": "0.6.37" },
+    { "ref": "egg/openclaw",            "min_app": "0.6.37" }
   ]
 }
