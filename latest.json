@@ -1,13 +1,13 @@
 {
-  "version": "0.6.79",
-  "notes": "Egg v0.6.79",
-  "pub_date": "2026-11-12T04:19:31Z",
+  "version": "0.6.80",
+  "notes": "Egg v0.6.80",
+  "pub_date": "2026-11-12T04:57:27Z",
   "min_required": "",
   "min_recommended": "",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbS9HL21HZVJHK0NQWXZ2SE1obTNpb1JhcjhEdjhpdHlxTU0vZFdTTmRXa01yKzIvclgwRjhnSkh2MFFVZll2VW5VZUtYN3UrNksvZXd3MzdlNmlqdGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU3MDY4CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CjlUY1BsR1JmRmpqWkkvbzl5QlFlU2FHN3BXdkRueUp1R3lvWVc0TWh1S2pPNS94RjNCU1ZZQ0d2cFJuQ0w0NHQzMlRDWVZ3a1RVVERYVUJmNGtZeEF3PT0K",
-      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.79/Egg.Run.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTdGYlBObDVSVE1rWFZxYTNiRHE1RmVtcFk1aG9US2dmR3FCdFVURFEzQWdpaUdBYkhxaDAzbU9PbndGTFZ2ZHNRcy84VXhac0ZzYmVPR3NLeTZaeVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDU5MzU4CWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CjR0M29zNVNnTmVBNXAvbFRBQVB3bURVbDlBaStrMW56aEtIWFVBSnhVeitwR0hHZll2dktrLzl3RGlJeUNNZFEvM0dCV3lVSGdHbEc2VGNiTEVna0RnPT0K",
+      "url": "https://github.com/EggRunAI/egg-downloads/releases/download/v0.6.80/Egg.Run.app.tar.gz"
     }
   }
 }
