@@ -2,8 +2,8 @@
   "version": "0.6.90",
   "notes": "Egg v0.6.90",
   "pub_date": "2026-11-19T04:24:15Z",
-  "min_required": "0.6.88",
-  "min_recommended": "0.6.88",
+  "min_required": "0.6.90",
+  "min_recommended": "0.6.90",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYm1NZUlVVVZTbTZ4TFMwZEdWVWlkQytieXNhTjNJT2R4aitzNkRndGF6VGlJVHZzSnN5NUJZQmxjVmpONlc5MjJxblFZUmptZmd0aHljT1cwaTl5MXZ1dWpub0QrS2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDYyMTEzCWZpbGU6RWdnIFJ1bi5hcHAudGFyLmd6CnFCT2VGcnhXek56cTlUUVFmNzcwaVllbkY3UkcxWUhnVnN0b1FORDRDamppZTlHQi9OMWptTE5XVm4xRGZmRXpHYzM0K1VQYzVmdGoxdDFWTVZDSENRPT0K",
